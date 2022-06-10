@@ -1,24 +1,25 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main {
+    static List<List<Integer>> result = new ArrayList();
+
     public static void main(String[] args) {
-        System.out.println(compressor("aaaabbbcdd"));
-        System.out.println("a4b3cd2");
+        int n = 4;
+        int k = 2;
+        combinator(new ArrayList(), 1, n, k);
+        System.out.println(result);
     }
 
-    static String compressor(String str) {
-        char ch = str.charAt(0);
-        int count = 1;
-        String ans = "";
-        for (int i = 1; i < str.length(); i++) {
-            if (str.charAt(i) == ch) {
-                count++;
-
-            } else {
-                ans = count == 1 ? ans + Character.toString(ch) : ans + Character.toString(ch) + count;
-                ch = str.charAt(i);
-                count = 1;
-            }
+    public static void combinator(ArrayList arr, int start, int n, int k) {
+        if (k == 0) {
+            result.add((List<Integer>) arr.clone());
+            return;
         }
-        ans = count == 1 ? ans + Character.toString(ch) : ans + Character.toString(ch) + count;
-        return ans;
+        for (int i = start; i <= n - k + 1; i++) {
+            arr.add(i);
+            combinator(arr, i + 1, n, k - 1);
+            arr.remove(arr.size() - 1);
+        }
     }
 }
