@@ -1,21 +1,17 @@
 class Solution {
-    static StringBuilder res = new StringBuilder();
-
-    public static String mergeAlternately(String word1, String word2) {
-        String shortest = word1;
-        String longest = word2;
-        if (word1.length() > word2.length()) {
-            shortest = word2;
-            longest = word1;
+    public static boolean validMountainArray(int[] arr) {
+        int len = arr.length;
+        if (len < 3) return false;
+        int check1 = 0;
+        int check2 = len - 1;
+        for (int i = 1; i < len; i++) {
+            if (arr[i] > arr[i - 1]) check1++;
+            else break;
         }
-        for (int i = 0; i < shortest.length(); i++) {
-            res.append(word1.charAt(i));
-            res.append(word2.charAt(i));
+        for (int i = len - 1; i > check1; i--) {
+            if (arr[i] < arr[i - 1]) check2--;
+            else break;
         }
-        if (word1.length() == word2.length()) return res.toString();
-        for (int i = shortest.length(); i < longest.length(); i++) {
-            res.append(longest.charAt(i));
-        }
-        return res.toString();
+        return check1 == check2 && check1 != 0 && check1 != len-1;
     }
 }
