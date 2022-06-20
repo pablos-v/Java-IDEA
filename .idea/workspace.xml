@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="OOP Practice tasks">
-      <change afterPath="$PROJECT_DIR$/src/ChiefOfficer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TeamLead.java" afterDir="false" />
+    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="OOP Practice tasks ready">
+      <change afterPath="$PROJECT_DIR$/src/UndergroundSystem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myHierarchy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myHierarchy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +33,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
@@ -58,7 +59,7 @@
       <recent name="Lesson_07.Ex007" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.myHierarchy">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Hanoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Hanoi" />
       <module name="training" />
@@ -195,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655305600610</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="OOP Practice tasks ready">
+      <created>1655558274111</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1655558274111</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -219,7 +227,8 @@
     <MESSAGE value="Input: 2? + ?5 = 69&#10;Output: 24 + 45 = 69" />
     <MESSAGE value="Sem 3 HanoiTower" />
     <MESSAGE value="Sem 3 HorseMove" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sem 3 HorseMove" />
+    <MESSAGE value="OOP Practice tasks ready" />
+    <option name="LAST_COMMIT_MESSAGE" value="OOP Practice tasks ready" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
