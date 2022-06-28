@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="seminar 5 HeapSort">
-      <change afterPath="$PROJECT_DIR$/src/Wave.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="seminar 6 PolishNotation">
+      <change afterPath="$PROJECT_DIR$/src/MergeSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="seminar_4" />
+        <entry key="$PROJECT_DIR$" value="seminar_5" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -59,7 +57,7 @@
       <recent name="Lesson_07.Ex007" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.MergeSort">
     <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HeapSort" />
       <module name="training" />
@@ -67,15 +65,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HorseMove" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HorseMove" />
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="training" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MergeSort" />
       <module name="training" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -116,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.HeapSort" />
         <item itemvalue="Application.myHierarchy" />
         <item itemvalue="Application.Program" />
         <item itemvalue="Application.PointMethod" />
-        <item itemvalue="Application.HorseMove" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656076800311</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="seminar 6 PolishNotation">
+      <created>1656184367420</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1656184367421</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -244,7 +249,8 @@
     <MESSAGE value="OOP Practice tasks ready" />
     <MESSAGE value="seminar4 UndergroundSystem OOP task" />
     <MESSAGE value="seminar 5 HeapSort" />
-    <option name="LAST_COMMIT_MESSAGE" value="seminar 5 HeapSort" />
+    <MESSAGE value="seminar 6 PolishNotation" />
+    <option name="LAST_COMMIT_MESSAGE" value="seminar 6 PolishNotation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
