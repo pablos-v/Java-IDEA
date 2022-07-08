@@ -1,10 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="Wave algorythm">
+    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="Solution https://leetcode.com/problems/01-matrix/">
+      <change afterPath="$PROJECT_DIR$/src/GenTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChiefOfficer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hanoi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HeapSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HorseMove.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Manager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MergeSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MinStack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sem2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TeamLead.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UndergroundSystem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Wave.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/myHierarchy.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +39,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="seminar_5" />
+        <entry key="$PROJECT_DIR$" value="seminar_6" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -58,7 +73,14 @@
       <recent name="Lesson_07.Ex007" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.GenTree">
+    <configuration name="GenTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GenTree" />
+      <module name="training" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HeapSort" />
       <module name="training" />
@@ -80,19 +102,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson_07.Ex007.Program" />
-      <module name="training" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lesson_07.Ex007.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Wave" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Wave" />
       <module name="training" />
@@ -109,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GenTree" />
         <item itemvalue="Application.Wave" />
         <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.HeapSort" />
         <item itemvalue="Application.myHierarchy" />
-        <item itemvalue="Application.Program" />
       </list>
     </recent_temporary>
   </component>
@@ -231,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656848580677</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Solution https://leetcode.com/problems/01-matrix/">
+      <created>1656867507428</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1656867507428</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -261,7 +277,9 @@
     <MESSAGE value="seminar 6 PolishNotation" />
     <MESSAGE value="seminar 6 MergeSort" />
     <MESSAGE value="Wave algorythm" />
-    <option name="LAST_COMMIT_MESSAGE" value="Wave algorythm" />
+    <MESSAGE value="https://leetcode.com/problems/01-matrix/" />
+    <MESSAGE value="Solution https://leetcode.com/problems/01-matrix/" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solution https://leetcode.com/problems/01-matrix/" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
