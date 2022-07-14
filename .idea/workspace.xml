@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="Genealogy tree">
-      <change afterPath="$PROJECT_DIR$/src/AbstractTraining_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Training.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Upc.java" afterDir="false" />
+    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="Genealogy tree project folder. Ready to fix.">
+      <change afterPath="$PROJECT_DIR$/src/GenTreeProject/GenTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GenTreeProject/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GenTreeProject/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GenTreeProject/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GenTreeProject/Relation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GenTreeProject/TreeBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GenTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +66,15 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\GB\Training\JAVA-in-IDEA\training\src" />
+    </key>
+    <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="Person" />
+    </key>
+    <key name="MoveInnerDialog.RECENTS_KEY">
+      <recent name="GenTreeProject" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="GenTreeProject" />
     </key>
   </component>
   <component name="RunManager">
@@ -198,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656867507428</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Genealogy tree project folder. Ready to fix.">
+      <created>1657793046760</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1657793046760</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -230,7 +246,8 @@
     <MESSAGE value="Wave algorythm" />
     <MESSAGE value="https://leetcode.com/problems/01-matrix/" />
     <MESSAGE value="Solution https://leetcode.com/problems/01-matrix/" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solution https://leetcode.com/problems/01-matrix/" />
+    <MESSAGE value="Genealogy tree project folder. Ready to fix." />
+    <option name="LAST_COMMIT_MESSAGE" value="Genealogy tree project folder. Ready to fix." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
