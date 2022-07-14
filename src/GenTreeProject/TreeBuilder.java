@@ -1,10 +1,7 @@
 package GenTreeProject;
 
-import java.util.ArrayList;
-
 public class TreeBuilder {
     GenTree build(GenTree buildingTree) {
-        buildingTree.setTree(new ArrayList<>());
 
         Person Mitya = new Person("Mitya", "m");
         Person Nina = new Person("Nina", "w");

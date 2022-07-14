@@ -12,4 +12,8 @@ public class TreePrinter {
             System.out.printf("%s, %s, %s \n", node.getFirstPerson().getName(), node.getSecondPerson().getName(), node.getRelation());
         });
     }
+
+    public static void print(GenTree genealogy) {
+        genealogy.getTree().forEach(node -> System.out.printf("%s, %s, %s \n", node.getFirstPerson().getName(), node.getSecondPerson().getName(), node.getRelation()));
+    }
 }

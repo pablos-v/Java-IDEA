@@ -22,16 +22,4 @@ class Node {
     public Relation getRelation() {
         return relation;
     }
-
-    public void setFirstPerson(Person firstPerson) {
-        this.firstPerson = firstPerson;
-    }
-
-    public void setSecondPerson(Person secondPerson) {
-        this.secondPerson = secondPerson;
-    }
-
-    public void setRelation(Relation relation) {
-        this.relation = relation;
-    }
 }
