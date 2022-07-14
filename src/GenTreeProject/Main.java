@@ -3,8 +3,10 @@ package GenTreeProject;
 public class Main {
     public static void main(String[] args) {
 
-TreeBuilder MyTree = (TreeBuilder) new TreeBuilder().build(new GenTree());
-
+        GenTree one = new TreeBuilder().build(new GenTree());
+        GenTree two = new GenTree().build();
+        TreePrinter tp = new TreePrinter(two);
+        tp.print();
 
 //        var set1 = myTree.findRelatives(Mitya, Relation.CHILD);
 //        System.out.println(set1.toString());

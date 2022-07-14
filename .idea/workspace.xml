@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="Genealogy tree project folder. Ready to fix.">
-      <change afterPath="$PROJECT_DIR$/src/GenTreeProject/GenTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GenTreeProject/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GenTreeProject/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GenTreeProject/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GenTreeProject/Relation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GenTreeProject/TreeBuilder.java" afterDir="false" />
+    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="Genealogy tree builder ready">
+      <change afterPath="$PROJECT_DIR$/src/GenTreeProject/Research.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GenTreeProject/TreePrinter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GenTreeProject/GenTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenTreeProject/GenTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GenTreeProject/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenTreeProject/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GenTreeProject/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenTreeProject/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GenTreeProject/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenTreeProject/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GenTreeProject/TreeBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenTreeProject/TreeBuilder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +78,20 @@
       <recent name="GenTreeProject" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.GenTreeProject.Main">
+    <configuration name="GenTreeProject.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GenTreeProject.Main" />
+      <module name="training" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GenTreeProject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="training" />
@@ -85,6 +99,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GenTreeProject.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -214,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657793046760</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Genealogy tree builder ready">
+      <created>1657797360269</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1657797360269</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -247,7 +273,8 @@
     <MESSAGE value="https://leetcode.com/problems/01-matrix/" />
     <MESSAGE value="Solution https://leetcode.com/problems/01-matrix/" />
     <MESSAGE value="Genealogy tree project folder. Ready to fix." />
-    <option name="LAST_COMMIT_MESSAGE" value="Genealogy tree project folder. Ready to fix." />
+    <MESSAGE value="Genealogy tree builder ready" />
+    <option name="LAST_COMMIT_MESSAGE" value="Genealogy tree builder ready" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
