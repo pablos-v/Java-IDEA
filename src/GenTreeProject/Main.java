@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
 
         GenTree myTree = new TreeBuilder().build();
-        Research research = new Research(myTree);
+        MyResearch research = new MyResearch(myTree);
 
         myTree.print();
 

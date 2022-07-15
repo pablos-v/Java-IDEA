@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="Genealogy tree Research improved GenTree interface">
+    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="Genealogy tree GenTree is abstract class">
+      <change afterPath="$PROJECT_DIR$/src/GenTreeProject/MyResearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GenTreeProject/GenTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenTreeProject/GenTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GenTreeProject/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenTreeProject/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GenTreeProject/TreePrinter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GenTreeProject/Research.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenTreeProject/Research.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -260,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657908353746</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Genealogy tree GenTree is abstract class">
+      <created>1657910212568</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1657910212568</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -297,7 +304,8 @@
     <MESSAGE value="Genealogy tree builder ready 2 ways, printer ready" />
     <MESSAGE value="Genealogy tree all review comments done" />
     <MESSAGE value="Genealogy tree Research improved GenTree interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="Genealogy tree Research improved GenTree interface" />
+    <MESSAGE value="Genealogy tree GenTree is abstract class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Genealogy tree GenTree is abstract class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
