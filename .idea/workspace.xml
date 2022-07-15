@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="Genealogy tree builder ready 2 ways, printer ready">
+    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="Genealogy tree all review comments done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GenTreeProject/GenTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenTreeProject/GenTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GenTreeProject/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenTreeProject/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GenTreeProject/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenTreeProject/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GenTreeProject/Research.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenTreeProject/Research.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GenTreeProject/TreeBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenTreeProject/TreeBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GenTreeProject/TreePrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenTreeProject/TreePrinter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -246,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657800416811</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Genealogy tree all review comments done">
+      <created>1657829488103</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1657829488103</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -281,7 +286,8 @@
     <MESSAGE value="Genealogy tree project folder. Ready to fix." />
     <MESSAGE value="Genealogy tree builder ready" />
     <MESSAGE value="Genealogy tree builder ready 2 ways, printer ready" />
-    <option name="LAST_COMMIT_MESSAGE" value="Genealogy tree builder ready 2 ways, printer ready" />
+    <MESSAGE value="Genealogy tree all review comments done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Genealogy tree all review comments done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

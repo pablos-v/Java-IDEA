@@ -31,8 +31,8 @@ public class Research {
                 if (isParent(j) && isParent(i) && parentOfFirstPerson.equals(parentOfSecondPerson)) {
                     Person firstSibling = tree.get(j).getFirstPerson();
                     Person secondSibling = tree.get(i).getFirstPerson();
-                    tree.add(new Node(firstSibling, secondSibling, secondSibling.getSex().equals("w") ? Relation.SISTER : Relation.BROTHER));
-                    tree.add(new Node(secondSibling, firstSibling, firstSibling.getSex().equals("w") ? Relation.SISTER : Relation.BROTHER));
+                    tree.add(new Node(firstSibling, secondSibling, setRelation(secondSibling)));
+                    tree.add(new Node(secondSibling, firstSibling, setRelation(firstSibling)));
                 }
             }
         }
@@ -40,5 +40,9 @@ public class Research {
 
     private boolean isParent(int n) {
         return genealogy.getTree().get(n).getRelation().equals(Relation.PARENT);
+    }
+
+    private Relation setRelation(Person person) {
+        return person.getSex().equals("w") ? Relation.SISTER : Relation.BROTHER;
     }
 }

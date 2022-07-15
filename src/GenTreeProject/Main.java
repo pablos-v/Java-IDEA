@@ -3,7 +3,7 @@ package GenTreeProject;
 public class Main {
     public static void main(String[] args) {
 
-        GenTree myTree = new TreeBuilder().build(new GenTree());
+        GenTree myTree = new TreeBuilder().build();
         Research research = new Research(myTree);
 
         TreePrinter.print(myTree);

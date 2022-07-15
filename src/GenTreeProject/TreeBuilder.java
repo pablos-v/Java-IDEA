@@ -1,7 +1,7 @@
 package GenTreeProject;
 
-public class TreeBuilder {
-    GenTree build(GenTree buildingTree) {
+public class TreeBuilder implements GenTree{
+    TreeBuilder build() {
 
         Person Mitya = new Person("Mitya", "m");
         Person Nina = new Person("Nina", "w");
@@ -9,11 +9,11 @@ public class TreeBuilder {
         Person Kolya = new Person("Kolya", "m");
         Person Larisa = new Person("Larisa", "w");
 
-        buildingTree.addNode(Mitya, Nina);
-        buildingTree.addNode(Mitya, Igor);
-        buildingTree.addNode(Igor, Kolya);
-        buildingTree.addNode(Nina, Larisa);
+        this.addNode(Mitya, Nina);
+        this.addNode(Mitya, Igor);
+        this.addNode(Igor, Kolya);
+        this.addNode(Nina, Larisa);
 
-        return buildingTree;
+        return this;
     }
 }
