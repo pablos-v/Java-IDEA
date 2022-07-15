@@ -6,7 +6,7 @@ public class Main {
         GenTree myTree = new TreeBuilder().build();
         Research research = new Research(myTree);
 
-        TreePrinter.print(myTree);
+        myTree.print();
 
         var allChildrenOfMitya = research.findRelatives("Mitya", Relation.CHILD);
         System.out.println(allChildrenOfMitya.toString());

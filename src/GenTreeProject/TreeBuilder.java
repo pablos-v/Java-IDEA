@@ -1,6 +1,6 @@
 package GenTreeProject;
 
-public class TreeBuilder implements GenTree{
+public class TreeBuilder extends GenTree{
     TreeBuilder build() {
 
         Person Mitya = new Person("Mitya", "m");
