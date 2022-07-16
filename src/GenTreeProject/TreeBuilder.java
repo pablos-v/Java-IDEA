@@ -1,13 +1,13 @@
 package GenTreeProject;
 
-public class TreeBuilder extends GenTree{
-    TreeBuilder build() {
-
-        Person Mitya = new Person("Mitya", "m");
-        Person Nina = new Person("Nina", "w");
-        Person Igor = new Person("Igor", "m");
-        Person Kolya = new Person("Kolya", "m");
-        Person Larisa = new Person("Larisa", "w");
+public class TreeBuilder extends GenTree {
+    @Override
+    public GenTree build() {
+        Person Mitya = new Person("Mitya", Gender.MALE);
+        Person Nina = new Person("Nina", Gender.FEMALE);
+        Person Igor = new Person("Igor", Gender.MALE);
+        Person Kolya = new Person("Kolya", Gender.MALE);
+        Person Larisa = new Person("Larisa", Gender.FEMALE);
 
         this.addNode(Mitya, Nina);
         this.addNode(Mitya, Igor);

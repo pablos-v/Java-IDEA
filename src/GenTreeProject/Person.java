@@ -3,11 +3,11 @@ package GenTreeProject;
 public class Person {
 
     private String name;
-    private String sex;
+    private Gender gender;
 
-    public Person(String name, String sex) {
+    public Person(String name, Gender gender) {
         this.name = name;
-        this.sex = sex;
+        this.gender = gender;
     }
 
     @Override
@@ -19,8 +19,8 @@ public class Person {
         return name;
     }
 
-    public String getSex() {
-        return sex;
+    public Gender getGender() {
+        return gender;
     }
 
     public void setName(String name) {

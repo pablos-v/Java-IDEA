@@ -14,6 +14,7 @@ public abstract class GenTree {
         tree.add(new Node(parent, child, Relation.CHILD));
     }
 
+    public abstract GenTree build();
     public void print() {
         this.getTree().forEach(node -> System.out.printf("%s, %s, %s \n", node.getFirstPerson().getName(), node.getSecondPerson().getName(), node.getRelation()));
     }

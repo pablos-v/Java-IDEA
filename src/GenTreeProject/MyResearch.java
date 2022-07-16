@@ -3,7 +3,7 @@ package GenTreeProject;
 import java.util.ArrayList;
 
 public class MyResearch implements Research {
-    GenTree genealogy;
+    private GenTree genealogy;
 
     public MyResearch(GenTree genealogy) {
         this.genealogy = genealogy;
@@ -44,6 +44,6 @@ public class MyResearch implements Research {
     }
 
     private Relation setRelation(Person person) {
-        return person.getSex().equals("w") ? Relation.SISTER : Relation.BROTHER;
+        return person.getGender().equals(Gender.FEMALE) ? Relation.SISTER : Relation.BROTHER;
     }
 }
