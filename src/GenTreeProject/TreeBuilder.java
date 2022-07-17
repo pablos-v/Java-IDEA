@@ -3,6 +3,9 @@ package GenTreeProject;
 public class TreeBuilder extends GenTree {
     @Override
     public GenTree build() {
+        this.index = 0;
+        this.indexNext = 0;
+
         Person Mitya = new Person("Mitya", Gender.MALE);
         Person Nina = new Person("Nina", Gender.FEMALE);
         Person Igor = new Person("Igor", Gender.MALE);

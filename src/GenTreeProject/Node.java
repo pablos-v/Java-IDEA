@@ -22,4 +22,9 @@ class Node {
     public Relation getRelation() {
         return relation;
     }
+
+    @Override
+    public String toString() {
+        return String.format("%s, %s, %s", this.firstPerson, this.secondPerson, this.relation);
+    }
 }

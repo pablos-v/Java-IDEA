@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="Genealogy tree GenTree is abstract class, Research is interface">
-      <change afterPath="$PROJECT_DIR$/src/GenTreeProject/Gender.java" afterDir="false" />
+    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="Genealogy tree made fixes after 2nd review">
+      <change afterPath="$PROJECT_DIR$/src/GenTreeProject/Printer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GenTreeProject/GenTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenTreeProject/GenTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GenTreeProject/MyResearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenTreeProject/MyResearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GenTreeProject/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenTreeProject/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GenTreeProject/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenTreeProject/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GenTreeProject/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenTreeProject/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GenTreeProject/TreeBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenTreeProject/TreeBuilder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="CodeInsightWorkspaceSettings">
-    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
@@ -26,13 +23,15 @@
       <list>
         <option value="Class" />
         <option value="Enum" />
+        <option value="UML Sequence" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="seminar_oop_1" />
+        <entry key="$PROJECT_DIR$" value="seminar_oop_2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -54,13 +53,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultPlantUmlFileTemplate": "UML Sequence",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/GB/Training/JAVA-in-IDEA/training",
+    "project.structure.last.edited": "Global Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "editor.preferences.import"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Lesson_07.Ex007" />
@@ -92,6 +96,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Lesson_09.Ex005.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson_09.Ex005.Program" />
+      <module name="training" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson_09.Ex005.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="training" />
@@ -116,6 +133,7 @@
       <list>
         <item itemvalue="Application.GenTreeProject.Main" />
         <item itemvalue="Application.Program" />
+        <item itemvalue="Application.Lesson_09.Ex005.Program" />
       </list>
     </recent_temporary>
   </component>
@@ -289,7 +307,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657911528367</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Genealogy tree made fixes after 2nd review">
+      <created>1657967551305</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1657967551305</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -328,7 +353,8 @@
     <MESSAGE value="Genealogy tree Research improved GenTree interface" />
     <MESSAGE value="Genealogy tree GenTree is abstract class" />
     <MESSAGE value="Genealogy tree GenTree is abstract class, Research is interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="Genealogy tree GenTree is abstract class, Research is interface" />
+    <MESSAGE value="Genealogy tree made fixes after 2nd review" />
+    <option name="LAST_COMMIT_MESSAGE" value="Genealogy tree made fixes after 2nd review" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
