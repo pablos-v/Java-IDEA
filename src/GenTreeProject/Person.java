@@ -5,6 +5,8 @@ public class Person {
     private String name;
     private Gender gender;
 
+    private int generationPriority = 0;
+
     public Person(String name, Gender gender) {
         this.name = name;
         this.gender = gender;
@@ -25,5 +27,9 @@ public class Person {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public void setGenerationPriority(int priority) {
+        this.generationPriority = priority;
     }
 }

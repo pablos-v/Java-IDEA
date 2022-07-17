@@ -8,7 +8,6 @@ public class Main {
 
 //        myTree.printToConsole(myTree);
 //        myTree.printToConsoleWithIterator(myTree);
-        myTree.printToConsoleWithIterator2(myTree);
 
         var allChildrenOfMitya = research.findRelatives("Mitya", Relation.CHILD);
         System.out.println(allChildrenOfMitya.toString());
@@ -17,7 +16,9 @@ public class Main {
         var allSistersOfIgor = research.findRelatives("Igor", Relation.SISTER);
         System.out.println(allSistersOfIgor);
 
+        myTree.printToConsoleWithIterator2(myTree);
 
+        research.allPersonsInTree(myTree);
     }
 }
 

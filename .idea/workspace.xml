@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="Genealogy tree made fixes after 2nd review">
-      <change afterPath="$PROJECT_DIR$/src/GenTreeProject/Printer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="Genealogy tree Printer interface added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GenTreeProject/GenTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenTreeProject/GenTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GenTreeProject/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenTreeProject/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GenTreeProject/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenTreeProject/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GenTreeProject/TreeBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenTreeProject/TreeBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GenTreeProject/MyResearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenTreeProject/MyResearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GenTreeProject/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenTreeProject/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GenTreeProject/Research.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenTreeProject/Research.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -314,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657967551305</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Genealogy tree Printer interface added">
+      <created>1658085685065</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1658085685066</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -329,7 +334,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="init commit" />
     <MESSAGE value="For N = 2, K = 3 answer &quot;00 01 02 10 11 12 20 21 22&quot;" />
     <MESSAGE value="isPalindrom" />
     <MESSAGE value="in aaaabbbcdd, out - a4b3cd2" />
@@ -354,7 +358,8 @@
     <MESSAGE value="Genealogy tree GenTree is abstract class" />
     <MESSAGE value="Genealogy tree GenTree is abstract class, Research is interface" />
     <MESSAGE value="Genealogy tree made fixes after 2nd review" />
-    <option name="LAST_COMMIT_MESSAGE" value="Genealogy tree made fixes after 2nd review" />
+    <MESSAGE value="Genealogy tree Printer interface added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Genealogy tree Printer interface added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

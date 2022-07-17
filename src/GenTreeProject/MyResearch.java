@@ -29,9 +29,9 @@ public class MyResearch implements Research {
                 //if parent`s name is same
                 String parentOfFirstPerson = tree.get(j).getSecondPerson().getName();
                 String parentOfSecondPerson = tree.get(i).getSecondPerson().getName();
-                if (isParent(j) && isParent(i) && parentOfFirstPerson.equals(parentOfSecondPerson)) {
-                    Person firstSibling = tree.get(j).getFirstPerson();
-                    Person secondSibling = tree.get(i).getFirstPerson();
+                Person firstSibling = tree.get(j).getFirstPerson();
+                Person secondSibling = tree.get(i).getFirstPerson();
+                if (isParent(j) && isParent(i) && parentOfFirstPerson.equals(parentOfSecondPerson) && !firstSibling.equals(secondSibling)) {
                     tree.add(new Node(firstSibling, secondSibling, setRelation(secondSibling)));
                     tree.add(new Node(secondSibling, firstSibling, setRelation(firstSibling)));
                 }
