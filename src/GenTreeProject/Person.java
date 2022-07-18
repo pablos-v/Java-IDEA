@@ -1,15 +1,18 @@
 package GenTreeProject;
 
-public class Person {
+import java.util.Comparator;
+
+public class Person implements Comparable<Person> {
 
     private String name;
     private Gender gender;
 
-    private int generationPriority = 0;
+    private int generation = 0;
 
-    public Person(String name, Gender gender) {
+    public Person(String name, Gender gender, int generation) {
         this.name = name;
         this.gender = gender;
+        this.generation = generation;
     }
 
     @Override
@@ -25,11 +28,17 @@ public class Person {
         return gender;
     }
 
+    public int getGeneration() {
+        return generation;
+    }
+
     public void setName(String name) {
         this.name = name;
     }
 
-    public void setGenerationPriority(int priority) {
-        this.generationPriority = priority;
+    // сортировка по старшинству поколений
+    @Override
+    public int compareTo(Person o) {
+        return Integer.compare(this.generation, o.generation);
     }
 }

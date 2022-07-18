@@ -1,5 +1,8 @@
 package GenTreeProject;
 
+import java.util.Collections;
+import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -13,12 +16,20 @@ public class Main {
         System.out.println(allChildrenOfMitya.toString());
 
         research.findSiblings();
+
         var allSistersOfIgor = research.findRelatives("Igor", Relation.SISTER);
         System.out.println(allSistersOfIgor);
 
         myTree.printToConsoleWithIterator2(myTree);
 
-        research.allPersonsInTree(myTree);
+        List<Person> allPersonsInTree = research.allPersonsInTree(myTree);
+
+        System.out.println(allPersonsInTree);
+        Collections.sort(allPersonsInTree);
+//        allPersonsInTree.sort(new Compare());
+        System.out.println(allPersonsInTree);
+
+
     }
 }
 
