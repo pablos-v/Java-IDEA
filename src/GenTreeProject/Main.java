@@ -23,11 +23,11 @@ public class Main {
         myTree.printToConsoleWithIterator2(myTree);
 
         List<Person> allPersonsInTree = research.allPersonsInTree(myTree);
+        System.out.println(allPersonsInTree);
 
-        System.out.println(allPersonsInTree);
-        Collections.sort(allPersonsInTree);
-//        allPersonsInTree.sort(new Compare());
-        System.out.println(allPersonsInTree);
+//        Collections.sort(allPersonsInTree);
+//        allPersonsInTree.stream().sorted(new Compare());
+        System.out.println(allPersonsInTree.stream().sorted(new Compare()).toList());
 
 
     }
