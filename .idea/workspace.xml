@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="Genealogy tree Compare added">
+    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="Genealogy tree trying to use Stream API, can be optimized">
+      <change afterPath="$PROJECT_DIR$/src/MyPlanner/ConsoleInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyPlanner/ConsoleOutput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyPlanner/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyPlanner/FileExport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyPlanner/FileImport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyPlanner/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyPlanner/Printer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyPlanner/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyPlanner/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GenTreeProject/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenTreeProject/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GenTreeProject/Research.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenTreeProject/Research.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +90,7 @@
       <recent name="GenTreeProject" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GenTreeProject.Main">
+  <component name="RunManager" selected="Application.Lesson_10.Ex003.Program">
     <configuration name="GenTreeProject.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GenTreeProject.Main" />
       <module name="training" />
@@ -102,6 +110,32 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lesson_09.Ex005.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lesson_10.Ex002.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson_10.Ex002.Program" />
+      <module name="training" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson_10.Ex002.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lesson_10.Ex003.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson_10.Ex003.Program" />
+      <module name="training" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson_10.Ex003.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,6 +165,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lesson_10.Ex003.Program" />
+        <item itemvalue="Application.Lesson_10.Ex002.Program" />
         <item itemvalue="Application.GenTreeProject.Main" />
         <item itemvalue="Application.Program" />
         <item itemvalue="Application.Lesson_09.Ex005.Program" />
@@ -335,7 +371,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658146324230</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Genealogy tree trying to use Stream API, can be optimized">
+      <created>1658406910576</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1658406910577</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -350,7 +393,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Input: n = 4, k = 2&#10;Output:&#10;[&#10;  [2,4],&#10;  [3,4],&#10;  [2,3],&#10;  [1,2],&#10;  [1,3],&#10;  [1,4],&#10;]" />
     <MESSAGE value="Input: word1 = &quot;ab&quot;, word2 = &quot;pqrs&quot;&#10;Output: &quot;apbqrs&quot;" />
     <MESSAGE value="Input: 2? + ?5 = 69&#10;Output: 24 + 45 = 69" />
     <MESSAGE value="Sem 3 HanoiTower" />
@@ -375,7 +417,8 @@
     <MESSAGE value="Genealogy tree findSiblings() optimized" />
     <MESSAGE value="Genealogy tree findSiblings() optimized, allPersonsInTree() added" />
     <MESSAGE value="Genealogy tree Compare added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Genealogy tree Compare added" />
+    <MESSAGE value="Genealogy tree trying to use Stream API, can be optimized" />
+    <option name="LAST_COMMIT_MESSAGE" value="Genealogy tree trying to use Stream API, can be optimized" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
