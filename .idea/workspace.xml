@@ -1,18 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="Genealogy tree trying to use Stream API, can be optimized">
-      <change afterPath="$PROJECT_DIR$/src/MyPlanner/ConsoleInput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyPlanner/ConsoleOutput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyPlanner/Database.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyPlanner/FileExport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyPlanner/FileImport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyPlanner/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyPlanner/Printer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyPlanner/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyPlanner/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="Planner. 1st architecture.">
+      <change afterPath="$PROJECT_DIR$/src/MyPlanner/Priority.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyPlanner/txtImport.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractTraining_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyPlanner/ConsoleInput.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyPlanner/ConsoleOutput.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyPlanner/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyPlanner/Database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyPlanner/FileImport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyPlanner/FileImport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyPlanner/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyPlanner/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyPlanner/Task.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Training.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Upc.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,10 +32,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="UML Sequence" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -378,7 +381,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658406910577</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Planner. 1st architecture.">
+      <created>1658864455251</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1658864455252</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -393,7 +403,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Input: word1 = &quot;ab&quot;, word2 = &quot;pqrs&quot;&#10;Output: &quot;apbqrs&quot;" />
     <MESSAGE value="Input: 2? + ?5 = 69&#10;Output: 24 + 45 = 69" />
     <MESSAGE value="Sem 3 HanoiTower" />
     <MESSAGE value="Sem 3 HorseMove" />
@@ -418,7 +427,8 @@
     <MESSAGE value="Genealogy tree findSiblings() optimized, allPersonsInTree() added" />
     <MESSAGE value="Genealogy tree Compare added" />
     <MESSAGE value="Genealogy tree trying to use Stream API, can be optimized" />
-    <option name="LAST_COMMIT_MESSAGE" value="Genealogy tree trying to use Stream API, can be optimized" />
+    <MESSAGE value="Planner. 1st architecture." />
+    <option name="LAST_COMMIT_MESSAGE" value="Planner. 1st architecture." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
