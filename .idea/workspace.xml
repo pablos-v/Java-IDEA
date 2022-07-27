@@ -1,21 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="Planner. 1st architecture.">
-      <change afterPath="$PROJECT_DIR$/src/MyPlanner/Priority.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyPlanner/txtImport.txt" afterDir="false" />
+    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="Planner. 2dn architecture.">
+      <change afterPath="$PROJECT_DIR$/src/MyPlanner/CSV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyPlanner/Doc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyPlanner/JSON.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyPlanner/XML.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AbstractTraining_1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Interf.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyPlanner/ConsoleInput.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyPlanner/ConsoleOutput.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyPlanner/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyPlanner/Database.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MyPlanner/FileImport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyPlanner/FileImport.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MyPlanner/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyPlanner/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyPlanner/Task.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Training.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Upc.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +27,8 @@
       <list>
         <option value="UML Sequence" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -86,6 +79,9 @@
     <key name="MoveMembersDialog.RECENTS_KEY">
       <recent name="Person" />
     </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="MyPlanner" />
+    </key>
     <key name="MoveInnerDialog.RECENTS_KEY">
       <recent name="GenTreeProject" />
     </key>
@@ -93,26 +89,13 @@
       <recent name="GenTreeProject" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lesson_10.Ex003.Program">
+  <component name="RunManager" selected="Application.MyPlanner.Main">
     <configuration name="GenTreeProject.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GenTreeProject.Main" />
       <module name="training" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="GenTreeProject.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Lesson_09.Ex005.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson_09.Ex005.Program" />
-      <module name="training" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lesson_09.Ex005.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,6 +136,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyPlanner.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyPlanner.Main" />
+      <module name="training" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MyPlanner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson_09.Ex001.Program" />
       <module name="training" />
@@ -168,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyPlanner.Main" />
         <item itemvalue="Application.Lesson_10.Ex003.Program" />
         <item itemvalue="Application.Lesson_10.Ex002.Program" />
         <item itemvalue="Application.GenTreeProject.Main" />
         <item itemvalue="Application.Program" />
-        <item itemvalue="Application.Lesson_09.Ex005.Program" />
       </list>
     </recent_temporary>
   </component>
@@ -388,7 +384,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658864455252</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Planner. 2dn architecture.">
+      <created>1658947298310</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1658947298310</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -403,7 +406,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Input: 2? + ?5 = 69&#10;Output: 24 + 45 = 69" />
     <MESSAGE value="Sem 3 HanoiTower" />
     <MESSAGE value="Sem 3 HorseMove" />
     <MESSAGE value="OOP Practice tasks ready" />
@@ -428,7 +430,8 @@
     <MESSAGE value="Genealogy tree Compare added" />
     <MESSAGE value="Genealogy tree trying to use Stream API, can be optimized" />
     <MESSAGE value="Planner. 1st architecture." />
-    <option name="LAST_COMMIT_MESSAGE" value="Planner. 1st architecture." />
+    <MESSAGE value="Planner. 2dn architecture." />
+    <option name="LAST_COMMIT_MESSAGE" value="Planner. 2dn architecture." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
