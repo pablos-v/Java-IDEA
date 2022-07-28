@@ -1,20 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="Planner. Import working.">
-      <change afterPath="$PROJECT_DIR$/src/MyPlanner/Exporter.java" afterDir="false" />
+    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="Planner. Main part is ready.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyPlanner/CSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyPlanner/CSV.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyPlanner/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyPlanner/Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyPlanner/Doc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyPlanner/Doc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyPlanner/FileExport.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyPlanner/Importer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyPlanner/Importer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MyPlanner/JSON.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyPlanner/JSON.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MyPlanner/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyPlanner/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyPlanner/PlannerToImport.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyPlanner/PlannerToImport.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyPlanner/XML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyPlanner/XML.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyPlanner/names.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyPlanner/training.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyPlanner/training.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -412,7 +402,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659015377499</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Planner. Main part is ready.">
+      <created>1659024363849</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1659024363849</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -427,7 +424,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="OOP Practice tasks ready" />
     <MESSAGE value="seminar4 UndergroundSystem OOP task" />
     <MESSAGE value="seminar 5 HeapSort" />
     <MESSAGE value="seminar 6 PolishNotation" />
@@ -452,7 +448,8 @@
     <MESSAGE value="Planner. 2dn architecture." />
     <MESSAGE value="Planner. Base for architecture from seminar 4." />
     <MESSAGE value="Planner. Import working." />
-    <option name="LAST_COMMIT_MESSAGE" value="Planner. Import working." />
+    <MESSAGE value="Planner. Main part is ready." />
+    <option name="LAST_COMMIT_MESSAGE" value="Planner. Main part is ready." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
