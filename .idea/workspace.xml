@@ -1,14 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="Planner. 2dn architecture.">
-      <change afterPath="$PROJECT_DIR$/src/MyPlanner/CSV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyPlanner/Doc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyPlanner/JSON.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyPlanner/XML.java" afterDir="false" />
+    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="Planner. Base for architecture from seminar 4.">
+      <change afterPath="$PROJECT_DIR$/src/MyPlanner/Importer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyPlanner/names.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyPlanner/training.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyPlanner/FileImport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyPlanner/FileImport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyPlanner/CSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyPlanner/CSV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyPlanner/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyPlanner/Database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyPlanner/Doc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyPlanner/Doc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyPlanner/FileExport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyPlanner/FileExport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyPlanner/FileImport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyPlanner/JSON.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyPlanner/JSON.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MyPlanner/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyPlanner/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyPlanner/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyPlanner/Printer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyPlanner/Priority.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyPlanner/Priority.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyPlanner/XML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyPlanner/XML.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyPlanner/txtImport.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyPlanner/PlannerToImport.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +52,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
@@ -57,18 +65,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultPlantUmlFileTemplate&quot;: &quot;UML Sequence&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/GB/Training/JAVA-in-IDEA/training&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Global Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultPlantUmlFileTemplate": "UML Sequence",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/GB/Training/JAVA-in-IDEA/training",
+    "project.structure.last.edited": "Global Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "project.propCompiler"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Lesson_07.Ex007" />
@@ -149,12 +158,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson_09.Ex001.Program" />
+    <configuration name="training" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyPlanner.training" />
       <module name="training" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson_09.Ex001.*" />
+          <option name="PATTERN" value="MyPlanner.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,10 +174,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.MyPlanner.Main" />
+        <item itemvalue="Application.training" />
         <item itemvalue="Application.Lesson_10.Ex003.Program" />
         <item itemvalue="Application.Lesson_10.Ex002.Program" />
         <item itemvalue="Application.GenTreeProject.Main" />
-        <item itemvalue="Application.Program" />
       </list>
     </recent_temporary>
   </component>
@@ -391,7 +400,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658947298310</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Planner. Base for architecture from seminar 4.">
+      <created>1658951457126</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1658951457126</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -406,7 +422,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Sem 3 HanoiTower" />
     <MESSAGE value="Sem 3 HorseMove" />
     <MESSAGE value="OOP Practice tasks ready" />
     <MESSAGE value="seminar4 UndergroundSystem OOP task" />
@@ -431,7 +446,8 @@
     <MESSAGE value="Genealogy tree trying to use Stream API, can be optimized" />
     <MESSAGE value="Planner. 1st architecture." />
     <MESSAGE value="Planner. 2dn architecture." />
-    <option name="LAST_COMMIT_MESSAGE" value="Planner. 2dn architecture." />
+    <MESSAGE value="Planner. Base for architecture from seminar 4." />
+    <option name="LAST_COMMIT_MESSAGE" value="Planner. Base for architecture from seminar 4." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

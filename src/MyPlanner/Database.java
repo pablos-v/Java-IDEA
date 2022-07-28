@@ -1,11 +1,17 @@
 package MyPlanner;
 
+import java.util.HashMap;
 import java.util.List;
 import java.util.SortedMap;
+import java.util.TreeMap;
 
-public class Database {
+public class Database implements Printer{
 
-    public SortedMap<Integer, List<String>> map;
+    public TreeMap<Integer, List<String>> map;
+
+    public Database() {
+        map = new TreeMap<>();
+    }
 
     public void add(List<String> ls) {
         int key = !map.isEmpty() ? map.lastKey() + 1 : 0;
