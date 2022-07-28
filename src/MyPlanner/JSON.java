@@ -24,4 +24,9 @@ public class JSON implements Doc{
     public void fileImport(Path path, Database db) throws IOException {
 
     }
+
+    @Override
+    public void fileExport(Database db) {
+
+    }
 }

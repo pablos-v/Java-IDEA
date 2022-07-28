@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.SortedMap;
 import java.util.TreeMap;
 
-public class Database implements Printer{
+public class Database implements Printer {
 
     public TreeMap<Integer, List<String>> map;
 
@@ -14,10 +14,6 @@ public class Database implements Printer{
     }
 
     public void add(List<String> ls) {
-        int key = !map.isEmpty() ? map.lastKey() + 1 : 0;
-        map.put(key, ls);
-        // пример записи
-        // id: task, dateTimeAdded, Priority, Name
+        map.put(Integer.parseInt(ls.get(0)), ls.subList(1, ls.size()));
     }
-
 }

@@ -2,9 +2,6 @@ package MyPlanner;
 
 import java.io.IOException;
 import java.nio.file.Path;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 
 public class Main {
     public static void main(String[] args) throws IOException {
@@ -15,6 +12,8 @@ public class Main {
         importPlanner.FileImport();
 
         db.print(db);
+
+        Exporter<XML> exportPlanner = new Exporter<>(new XML(),db);
 
     }
 }

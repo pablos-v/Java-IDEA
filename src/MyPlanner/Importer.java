@@ -8,14 +8,13 @@ import java.io.File;
 public class Importer {
     Path path;
     Database db;
-//    public class FileImport<T extends Doc>
 
     public Importer(Path path, Database db) {
         this.path = path;
         this.db = db;
     }
 
-    public void FileImport() throws IOException{
+    public void FileImport() throws IOException {
         if (Files.exists(path) && Files.isRegularFile(path)) {
             String ext = getFileExtension(path);
             switch (ext.toLowerCase()) {
@@ -33,9 +32,9 @@ public class Importer {
                 }
                 default -> System.out.println("File extension issue, try another file.");
             }
-
         }
     }
+
 
     private static String getFileExtension(Path path) {
         File file = new File(String.valueOf(path));
@@ -47,8 +46,4 @@ public class Importer {
             // в противном случае возвращаем заглушку
         else return "";
     }
-
-
-
-
 }
