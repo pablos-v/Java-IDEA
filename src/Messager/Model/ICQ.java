@@ -1,11 +1,14 @@
-package Messager;
+package Messager.Model;
+
+import Messager.Infrastructure.Users.User;
+
 
 import java.util.ArrayList;
 import java.util.Objects;
 
 public class ICQ implements Chat {
     String chatName;
-    ArrayList<User> users;
+    public ArrayList<User> users;
 
     public ICQ(String n) {
         chatName = n;
@@ -14,23 +17,23 @@ public class ICQ implements Chat {
 
     @Override
     public void sendMessage(String text, User me) {
-        System.out.printf("\n>>> Chat %s see: ", chatName);
+        myView.viewOutput(String.format("\n>>> Chat %s see: ", chatName));
         for (User user : users) {
             if (!Objects.equals(user.name, me.name)) {
-                user.printMessage(text);
+                myView.viewOutput(String.format("\n    %s: %s", user.name, text));
             }
         }
     }
 
     @Override
     public void appendClient(User client) {
-        System.out.printf("\n>>> %s entering %s", client.name, chatName);
+        myView.viewOutput(String.format("\n>>> %s entering chat %s", client.name, chatName));
         users.add(client);
     }
 
     @Override
     public void deleteClient(User client) {
-        System.out.printf("\n>>> %s is kicked from %s\n", client.name, chatName);
+        myView.viewOutput(String.format("\n>>> %s is kicked from %s\n", client.name, chatName));
         users.remove(client);
     }
 

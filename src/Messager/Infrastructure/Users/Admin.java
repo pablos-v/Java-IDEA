@@ -1,4 +1,6 @@
-package Messager;
+package Messager.Infrastructure.Users;
+
+import Messager.Model.Chat;
 
 import java.util.Objects;
 
@@ -8,7 +10,7 @@ public class Admin extends User{
         super(name, room);
     }
 
-    void delete(User user){
+    public void delete(User user){
         if(!Objects.equals(user.name, this.name)){
             room.deleteClient(user);
         }

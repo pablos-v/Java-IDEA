@@ -1,4 +1,6 @@
-package Messager;
+package Messager.Infrastructure.Users;
+
+import Messager.Model.Chat;
 
 public class SimpleUser extends User{
 

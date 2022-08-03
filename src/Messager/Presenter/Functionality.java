@@ -1,19 +1,25 @@
-package Messager;
+package Messager.Presenter;
+
+import Messager.Infrastructure.Users.Admin;
+import Messager.Infrastructure.Users.Bot;
+import Messager.Infrastructure.Users.SimpleUser;
+import Messager.Infrastructure.Users.User;
+import Messager.Model.ICQ;
 
 public class Functionality {
 
     public static void base(ICQ icq) {
-        User client1 = new SimpleUser("Vaso", icq);
+        User client1 = new Bot("Bot_nice", icq);
         User client2 = new SimpleUser("Lisa", icq);
         User client3 = new SimpleUser("Mimi", icq);
         icq.appendClient(client1);
         icq.appendClient(client2);
         icq.appendClient(client3);
-        client1.sendMessage("Privet!");
-        client2.sendMessage("Zdravi bude!");
+        client1.sendMessage("SPAM");
+        client2.sendMessage("Zovite moderatora!");
         User client4 = new SimpleUser("Nona", icq);
         icq.appendClient(client4);
-        client4.sendMessage("Vot i YA!");
+        client4.sendMessage("Privet!");
         System.out.println();
     }
 
@@ -22,7 +28,7 @@ public class Functionality {
         Admin newAdmin = new Admin("Moderator", icq);
         // Сначала хотел скастовать в Админа одного из юзеров:
         // Admin newAdmin = (Admin)icq.users.get(1);
-        // но ловлю ClassCastException
+        // но ловлю ClassCastException. Читал про апкасты, понимания не пришло
         // не подскажете как сменить юзеру тип на админа и наоборот?
         icq.appendClient(newAdmin);
         newAdmin.delete(icq.users.get(0));

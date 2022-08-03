@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="Messager start with minor fixes">
-      <change afterPath="$PROJECT_DIR$/src/Messager/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Messager/Functionality.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Messager/SimpleUser.java" afterDir="false" />
+    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="Messager abstract user, admin role added">
+      <change afterPath="$PROJECT_DIR$/src/Messager/Infrastructure/Users/Bot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Messager/MyView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Messager/Chat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Messager/Chat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Messager/ICQ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Messager/ICQ.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Messager/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Messager/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Messager/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Messager/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson_11/Ex001Calc/Go.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Messager/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Messager/Infrastructure/Users/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Messager/Chat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Messager/Model/Chat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Messager/Functionality.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Messager/Presenter/Functionality.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Messager/ICQ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Messager/Model/ICQ.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Messager/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Messager/Presenter/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Messager/SimpleUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Messager/Infrastructure/Users/SimpleUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Messager/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Messager/Infrastructure/Users/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,16 +91,17 @@
       <recent name="GenTreeProject" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Messager.Users" />
       <recent name="GenTreeProject" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Messager.Program" />
+    <configuration name="Messager.Presenter.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Messager.Presenter.Program" />
       <module name="training" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Messager.Admin" />
+          <option name="PATTERN" value="Messager.Infrastructure.Users.Admin" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,7 +111,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Messager.Program" />
+        <item itemvalue="Application.Messager.Presenter.Program" />
       </list>
     </recent_temporary>
   </component>
@@ -365,7 +369,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659523103307</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Messager abstract user, admin role added">
+      <created>1659538876219</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1659538876219</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -380,7 +391,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="seminar 6 PolishNotation" />
     <MESSAGE value="seminar 6 MergeSort" />
     <MESSAGE value="Wave algorythm" />
     <MESSAGE value="https://leetcode.com/problems/01-matrix/" />
@@ -405,7 +415,8 @@
     <MESSAGE value="Planner. Main part is ready." />
     <MESSAGE value="Planner. Minor fixes." />
     <MESSAGE value="Messager start with minor fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Messager start with minor fixes" />
+    <MESSAGE value="Messager abstract user, admin role added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Messager abstract user, admin role added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

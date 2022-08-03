@@ -1,4 +1,6 @@
-package Messager;
+package Messager.Presenter;
+
+import Messager.Model.ICQ;
 
 public class Program {
     public static void main(String[] args) {
