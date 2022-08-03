@@ -6,7 +6,7 @@ import Messager.Infrastructure.Users.User;
 import java.util.ArrayList;
 import java.util.Objects;
 
-public class ICQ implements Chat {
+public class ICQ implements Chat, Database{
     String chatName;
     public ArrayList<User> users;
 
@@ -17,6 +17,7 @@ public class ICQ implements Chat {
 
     @Override
     public void sendMessage(String text, User me) {
+        addMsgToDatabase(me.name, text);
         myView.viewOutput(String.format("\n>>> Chat %s see: ", chatName));
         for (User user : users) {
             if (!Objects.equals(user.name, me.name)) {
@@ -29,6 +30,7 @@ public class ICQ implements Chat {
     public void appendClient(User client) {
         myView.viewOutput(String.format("\n>>> %s entering chat %s", client.name, chatName));
         users.add(client);
+        db.put(client.name, new ArrayList<>());
     }
 
     @Override

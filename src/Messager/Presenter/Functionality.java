@@ -8,7 +8,7 @@ import Messager.Model.ICQ;
 
 public class Functionality {
 
-    public static void base(ICQ icq) {
+    public static void basic(ICQ icq) {
         User client1 = new Bot("Bot_nice", icq);
         User client2 = new SimpleUser("Lisa", icq);
         User client3 = new SimpleUser("Mimi", icq);
@@ -17,10 +17,11 @@ public class Functionality {
         icq.appendClient(client3);
         client1.sendMessage("SPAM");
         client2.sendMessage("Zovite moderatora!");
+        client1.sendMessage("Ne nado");
         User client4 = new SimpleUser("Nona", icq);
         icq.appendClient(client4);
         client4.sendMessage("Privet!");
-        System.out.println();
+        System.out.println("\n---------------------");
     }
 
     public static void deletion(ICQ icq) {
@@ -33,9 +34,10 @@ public class Functionality {
         icq.appendClient(newAdmin);
         newAdmin.delete(icq.users.get(0));
         System.out.println(icq.users);
+        System.out.println("---------------------");
     }
 
-    public static void extra(ICQ icq) {
-
+    public static void database(ICQ icq) {
+        icq.printDatabase();
     }
 }
