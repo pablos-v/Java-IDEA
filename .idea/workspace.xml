@@ -1,36 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="Planner. Minor fixes.">
-      <change afterPath="$PROJECT_DIR$/src/Lesson_11/Ex001Calc/Go.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Messager/Chat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Messager/ICQ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Messager/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Messager/User.java" afterDir="false" />
+    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="Messager start with minor fixes">
+      <change afterPath="$PROJECT_DIR$/src/Messager/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Messager/Functionality.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Messager/SimpleUser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GenTreeProject/Compare.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GenTreeProject/GenTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GenTreeProject/Gender.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GenTreeProject/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GenTreeProject/MyResearch.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GenTreeProject/Node.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GenTreeProject/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GenTreeProject/Printer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GenTreeProject/Relation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GenTreeProject/Research.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GenTreeProject/TreeBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_07/Ex007/Healer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyPlanner/CSV.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyPlanner/Database.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyPlanner/Doc.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyPlanner/Exporter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyPlanner/Importer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyPlanner/JSON.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyPlanner/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyPlanner/PlannerToImport.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyPlanner/Printer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyPlanner/Readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyPlanner/XML.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Messager/Chat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Messager/Chat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Messager/ICQ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Messager/ICQ.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Messager/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Messager/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Messager/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Messager/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,12 +92,12 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Messager.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Messager.Program" />
       <module name="training" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Messager.*" />
+          <option name="PATTERN" value="Messager.Admin" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -379,7 +358,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659041631462</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Messager start with minor fixes">
+      <created>1659523103307</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1659523103307</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -394,7 +380,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="seminar 5 HeapSort" />
     <MESSAGE value="seminar 6 PolishNotation" />
     <MESSAGE value="seminar 6 MergeSort" />
     <MESSAGE value="Wave algorythm" />
@@ -419,7 +404,8 @@
     <MESSAGE value="Planner. Import working." />
     <MESSAGE value="Planner. Main part is ready." />
     <MESSAGE value="Planner. Minor fixes." />
-    <option name="LAST_COMMIT_MESSAGE" value="Planner. Minor fixes." />
+    <MESSAGE value="Messager start with minor fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Messager start with minor fixes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

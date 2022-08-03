@@ -27,4 +27,11 @@ public class ICQ implements Chat {
         System.out.printf("\n>>> %s entering %s", client.name, chatName);
         users.add(client);
     }
+
+    @Override
+    public void deleteClient(User client) {
+        System.out.printf("\n>>> %s is kicked from %s\n", client.name, chatName);
+        users.remove(client);
+    }
+
 }
