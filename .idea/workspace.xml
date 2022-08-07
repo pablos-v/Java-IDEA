@@ -1,24 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="Messager DB added as interface">
-      <change afterPath="$PROJECT_DIR$/src/HOmeWork/AbsClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HOmeWork/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HOmeWork/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HOmeWork/Name.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HOmeWork/SuperClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HOmeWork/VIPClient.java" afterDir="false" />
+    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="Lection 6 training">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Messager/Infrastructure/Users/Admin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Messager/Infrastructure/Users/Bot.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Messager/Infrastructure/Users/SimpleUser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Messager/Infrastructure/Users/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Messager/Model/Chat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Messager/Model/Database.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Messager/Model/ICQ.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Messager/MyView.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Messager/Presenter/Functionality.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Messager/Presenter/Program.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +89,7 @@
       <recent name="HOmeWork" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Ex005_2DIP">
     <configuration name="Ex001_1SRP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ex001_1SRP" />
       <module name="training" />
@@ -115,6 +99,13 @@
     </configuration>
     <configuration name="Ex002_1OCP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ex002_1OCP" />
+      <module name="training" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex005_2DIP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ex005_2DIP" />
       <module name="training" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -148,6 +139,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ex005_2DIP" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Ex002_1OCP" />
         <item itemvalue="Application.Ex001_1SRP" />
@@ -430,7 +422,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659557869536</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Lection 6 training">
+      <created>1659869465782</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1659869465782</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -445,7 +444,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="https://leetcode.com/problems/01-matrix/" />
     <MESSAGE value="Solution https://leetcode.com/problems/01-matrix/" />
     <MESSAGE value="Genealogy tree project folder. Ready to fix." />
     <MESSAGE value="Genealogy tree builder ready" />
@@ -470,7 +468,8 @@
     <MESSAGE value="Messager abstract user, admin role added" />
     <MESSAGE value="Messager MVP pattern" />
     <MESSAGE value="Messager DB added as interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="Messager DB added as interface" />
+    <MESSAGE value="Lection 6 training" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lection 6 training" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
