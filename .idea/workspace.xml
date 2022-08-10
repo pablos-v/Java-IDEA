@@ -1,20 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="Lection 6 training finished">
-      <change afterPath="$PROJECT_DIR$/src/HomeWork/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HomeWork/MovesKeeper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HomeWork/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HomeWork/SaveLoadModule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HomeWork/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app.java" afterDir="false" />
+    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="Homework done, but exception">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HOmeWork/AbsClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HOmeWork/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HOmeWork/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HOmeWork/Name.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HOmeWork/SuperClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HOmeWork/VIPClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork/MovesKeeper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork/MovesKeeper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork/Program.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -411,7 +402,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659870408437</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Homework done, but exception">
+      <created>1660158717786</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1660158717786</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -426,7 +424,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Genealogy tree project folder. Ready to fix." />
     <MESSAGE value="Genealogy tree builder ready" />
     <MESSAGE value="Genealogy tree builder ready 2 ways, printer ready" />
     <MESSAGE value="Genealogy tree all review comments done" />
@@ -451,7 +448,8 @@
     <MESSAGE value="Messager DB added as interface" />
     <MESSAGE value="Lection 6 training" />
     <MESSAGE value="Lection 6 training finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lection 6 training finished" />
+    <MESSAGE value="Homework done, but exception" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework done, but exception" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

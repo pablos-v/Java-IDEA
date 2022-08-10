@@ -1,9 +1,10 @@
 package HomeWork;
 
+import java.io.Serializable;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-public class MovesKeeper {
+public class MovesKeeper implements Serializable {
     private LinkedHashMap<Integer, String> moves;
 
     public MovesKeeper() {

@@ -1,6 +1,8 @@
 package HomeWork;
 
-public class Game {
+import java.io.Serializable;
+
+public class Game implements Serializable {
     private String map;
     private int players;
     private String parameters;
@@ -13,7 +15,7 @@ public class Game {
         this.map = map;
         this.players = players;
         this.parameters = parameters;
-        move = 0;
+        move = 1;
         movesFlow = new MovesKeeper();
     }
 

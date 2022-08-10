@@ -8,12 +8,14 @@ public class Program {
         game.makeMove("e2-e4");
         game.makeMove("h2-h4");
         game.movesFlow.print();
+        System.out.println("------------------");
 
         SaveLoadModule gamesStorage = new SaveLoadModule();
         gamesStorage.save(game);
 
         game.makeMove("1234");
         game.movesFlow.print();
+        System.out.println("------------------");
 
         game = gamesStorage.load(0);
         game.movesFlow.print();
