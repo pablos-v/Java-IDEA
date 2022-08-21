@@ -2,24 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="Solution https://leetcode.com/problems/01-matrix/">
-      <change afterPath="$PROJECT_DIR$/src/GenTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/README.MD" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ChiefOfficer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Hanoi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HeapSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HorseMove.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Manager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MergeSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MinStack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyQueue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sem2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solution.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TeamLead.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UndergroundSystem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Wave.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myHierarchy.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -294,5 +278,10 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/training$GenTreeProject_Main.ic" NAME="GenTreeProject.Main Coverage Results" MODIFIED="1658143491647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>GenTreeProject.*</FILTER>
+    </SUITE>
   </component>
 </project>
