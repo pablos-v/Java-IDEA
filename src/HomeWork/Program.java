@@ -7,17 +7,20 @@ public class Program {
         Game game = new Game("Forest", 5, "3 moves, 2 lives");
         game.makeMove("e2-e4");
         game.makeMove("h2-h4");
-        game.movesFlow.print();
+        game.params.movesFlow.print();
         System.out.println("------------------");
+        System.out.println(game.hashCode());
 
         SaveLoadModule gamesStorage = new SaveLoadModule();
-        gamesStorage.save(game);
+        gamesStorage.save(game.params);
 
         game.makeMove("1234");
-        game.movesFlow.print();
+        game.params.movesFlow.print();
         System.out.println("------------------");
+        System.out.println(game.hashCode());
 
-        game = gamesStorage.load(0);
-        game.movesFlow.print();
+        game.params = gamesStorage.load(0);
+        game.params.movesFlow.print();
+        System.out.println(game.hashCode());
     }
 }

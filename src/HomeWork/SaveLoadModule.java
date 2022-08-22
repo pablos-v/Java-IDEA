@@ -10,7 +10,7 @@ public class SaveLoadModule {
         savedGames = new ArrayList<>();
     }
 
-    public void save(Game game) throws IOException {
+    public void save(Parameters game) throws IOException {
         ByteArrayOutputStream baos = new ByteArrayOutputStream();
         ObjectOutputStream ous = new ObjectOutputStream(baos);
         ous.writeObject(game);
@@ -19,8 +19,8 @@ public class SaveLoadModule {
         savedGames.add(ois);
     }
 
-    public Game load(int id) throws IOException, ClassNotFoundException {
-        return (Game) savedGames.get(id).readObject();
+    public Parameters load(int id) throws IOException, ClassNotFoundException {
+        return (Parameters) savedGames.get(id).readObject();
     }
 
 }
