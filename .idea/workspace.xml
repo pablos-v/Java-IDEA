@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="Except_sem_3 Task1 solved">
-      <change afterPath="$PROJECT_DIR$/src/Exeptions_Seminar_3/Task2.java" afterDir="false" />
+    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="Except_sem_3 Task2 solved">
+      <change afterPath="$PROJECT_DIR$/src/Exeptions_Seminar_3/Task3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exeptions_Seminar_3/Task3_counter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +93,7 @@
       <recent name="HOmeWork" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Task3">
     <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Exeptions_Seminar_3.Task2" />
       <module name="training" />
@@ -106,8 +107,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Task3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exeptions_Seminar_3.Task3" />
+      <module name="training" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Exeptions_Seminar_3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task3" />
         <item itemvalue="Application.Task2" />
       </list>
     </recent_temporary>
@@ -436,7 +451,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665838906693</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Except_sem_3 Task2 solved">
+      <created>1665902694992</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1665902694992</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -481,7 +503,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Genealogy tree GenTree is abstract class" />
     <MESSAGE value="Genealogy tree GenTree is abstract class, Research is interface" />
     <MESSAGE value="Genealogy tree made fixes after 2nd review" />
     <MESSAGE value="Genealogy tree Printer interface added" />
@@ -506,7 +527,8 @@
     <MESSAGE value="Readme added as homework 7" />
     <MESSAGE value="Readme added as homework 7 + fixes" />
     <MESSAGE value="Except_sem_3 Task1 solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="Except_sem_3 Task1 solved" />
+    <MESSAGE value="Except_sem_3 Task2 solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="Except_sem_3 Task2 solved" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
