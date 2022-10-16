@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="Readme added as homework 7 + fixes">
-      <change afterPath="$PROJECT_DIR$/src/Exeptions_Seminar_3/Task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exeptions_Seminar_3/Task1_solved.java" afterDir="false" />
+    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="Except_sem_3 Task1 solved">
+      <change afterPath="$PROJECT_DIR$/src/Exeptions_Seminar_3/Task2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork/Game.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork/MovesKeeper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork/Parameters.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork/Program.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork/README.MD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork/SaveLoadModule.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,29 +92,9 @@
       <recent name="HOmeWork" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Program">
-    <configuration name="Prog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Prog" />
-      <module name="training" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HomeWork.Program" />
-      <module name="training" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="HomeWork.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exeptions_Seminar_3.Task1" />
+  <component name="RunManager">
+    <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exeptions_Seminar_3.Task2" />
       <module name="training" />
       <extension name="coverage">
         <pattern>
@@ -135,9 +108,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Program" />
-        <item itemvalue="Application.Exeptions_Seminar_3.Task1" />
-        <item itemvalue="Application.Prog" />
+        <item itemvalue="Application.Task2" />
       </list>
     </recent_temporary>
   </component>
@@ -458,7 +429,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661169991067</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Except_sem_3 Task1 solved">
+      <created>1665838906693</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1665838906693</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -503,7 +481,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Genealogy tree Research improved GenTree interface" />
     <MESSAGE value="Genealogy tree GenTree is abstract class" />
     <MESSAGE value="Genealogy tree GenTree is abstract class, Research is interface" />
     <MESSAGE value="Genealogy tree made fixes after 2nd review" />
@@ -528,7 +505,8 @@
     <MESSAGE value="fixup! Readme added as homework 7" />
     <MESSAGE value="Readme added as homework 7" />
     <MESSAGE value="Readme added as homework 7 + fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Readme added as homework 7 + fixes" />
+    <MESSAGE value="Except_sem_3 Task1 solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="Except_sem_3 Task1 solved" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
