@@ -11,6 +11,8 @@ public class Task3 {
         try (Task3_counter counter = new Task3_counter()){
             counter.add();
             counter.add();
+            counter.add();
+            System.out.println(counter.getI());
         }
         try (Task3_counter counter = new Task3_counter()) {
             counter.add();

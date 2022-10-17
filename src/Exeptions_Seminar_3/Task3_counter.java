@@ -5,6 +5,10 @@ public class Task3_counter implements AutoCloseable {
     private int i = 0;
     private static boolean closed = false;
 
+    public int getI() {
+        return i;
+    }
+
     public void add() {
         if (!closed) {
             this.i++;
