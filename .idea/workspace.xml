@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="Except_sem_3 Task3 solved">
-      <change afterPath="$PROJECT_DIR$/src/Exeptions_Seminar_3/Task4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exeptions_Seminar_3/Task4_solved.java" afterDir="false" />
+    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="Except_sem_3 Task4.1 solved">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exeptions_Seminar_3/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exeptions_Seminar_3/Task3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exeptions_Seminar_3/Task3_counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exeptions_Seminar_3/Task3_counter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exeptions_Seminar_3/Task4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exeptions_Seminar_3/Task4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exeptions_Seminar_3/Task4_solved.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exeptions_Seminar_3/Task4_solved.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -481,7 +479,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665932707351</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Except_sem_3 Task4.1 solved">
+      <created>1666008986285</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1666008986285</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -526,7 +531,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Genealogy tree made fixes after 2nd review" />
     <MESSAGE value="Genealogy tree Printer interface added" />
     <MESSAGE value="Genealogy tree findSiblings() optimized" />
     <MESSAGE value="Genealogy tree findSiblings() optimized, allPersonsInTree() added" />
@@ -551,7 +555,8 @@
     <MESSAGE value="Except_sem_3 Task1 solved" />
     <MESSAGE value="Except_sem_3 Task2 solved" />
     <MESSAGE value="Except_sem_3 Task3 solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="Except_sem_3 Task3 solved" />
+    <MESSAGE value="Except_sem_3 Task4.1 solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="Except_sem_3 Task4.1 solved" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -563,6 +568,10 @@
         <breakpoint type="java-exception">
           <properties class="java.lang.NullPointerException" package="java.lang" />
           <option name="timeStamp" value="10" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="Exeptions_Seminar_3.Task4_solved" package="Exeptions_Seminar_3" />
+          <option name="timeStamp" value="11" />
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>

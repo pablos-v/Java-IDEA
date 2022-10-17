@@ -9,14 +9,26 @@ package Exeptions_Seminar_3;
 //Создайте класс исключения, которое будет возникать при попытке открыть несуществующий файл.
 // Исключение должно отображать понятное для пользователя сообщение об ошибке.
 
+import java.util.Arrays;
+
 public class Task4 {
+    //    public static void main(String[] args) {
+//        System.out.println(dev(10,0));
+//    }
+//
+//    public static int dev(int a, int b) {
+//        if (b == 0) throw new Task4_solved();
+//        return a / b;
+//    }
     public static void main(String[] args) {
-        System.out.println(dev(10,0));
+        Integer[] arr = {1, 2, 3, null};
+        checkArray(arr);
     }
 
-    public static int dev(int a, int b) {
-        if (b == 0) throw new Task4_solved();
-        return a / b;
+    public static void checkArray(Integer[] arr) {
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] == null) throw new Task4_solved(i);
+        }
     }
 
 }
