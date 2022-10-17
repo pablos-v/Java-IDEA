@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="Except_sem_3 Task4.1 solved">
+    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="Except_sem_3 Task4.2 solved">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Exeptions_Seminar_3/Task4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exeptions_Seminar_3/Task4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Exeptions_Seminar_3/Task4_solved.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exeptions_Seminar_3/Task4_solved.java" afterDir="false" />
@@ -486,7 +486,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666008986285</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Except_sem_3 Task4.2 solved">
+      <created>1666010220774</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1666010220774</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -531,7 +538,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Genealogy tree Printer interface added" />
     <MESSAGE value="Genealogy tree findSiblings() optimized" />
     <MESSAGE value="Genealogy tree findSiblings() optimized, allPersonsInTree() added" />
     <MESSAGE value="Genealogy tree Compare added" />
@@ -556,7 +562,8 @@
     <MESSAGE value="Except_sem_3 Task2 solved" />
     <MESSAGE value="Except_sem_3 Task3 solved" />
     <MESSAGE value="Except_sem_3 Task4.1 solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="Except_sem_3 Task4.1 solved" />
+    <MESSAGE value="Except_sem_3 Task4.2 solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="Except_sem_3 Task4.2 solved" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
