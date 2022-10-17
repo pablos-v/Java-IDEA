@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="Except_sem_3 Task4.3 solved">
-      <change afterPath="$PROJECT_DIR$/src/Exeptions_Seminar_3/Task5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exeptions_Seminar_3/Task5_exception.java" afterDir="false" />
+    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="Except_sem_3 Task5.1 solved">
+      <change afterPath="$PROJECT_DIR$/src/Exeptions_Seminar_3/Task5_data_exception.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exeptions_Seminar_3/Task5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exeptions_Seminar_3/Task5.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,13 +163,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654680369571</updated>
-    </task>
-    <task id="LOCAL-00002" summary="For N = 2, K = 3 answer &quot;00 01 02 10 11 12 20 21 22&quot;">
-      <created>1654684841109</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1654684841109</updated>
     </task>
     <task id="LOCAL-00003" summary="isPalindrom">
       <created>1654686309382</created>
@@ -507,7 +500,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666011942598</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Except_sem_3 Task5.1 solved">
+      <created>1666013246165</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1666013246165</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -552,7 +552,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Genealogy tree findSiblings() optimized, allPersonsInTree() added" />
     <MESSAGE value="Genealogy tree Compare added" />
     <MESSAGE value="Genealogy tree trying to use Stream API, can be optimized" />
     <MESSAGE value="Planner. 1st architecture." />
@@ -577,7 +576,8 @@
     <MESSAGE value="Except_sem_3 Task4.1 solved" />
     <MESSAGE value="Except_sem_3 Task4.2 solved" />
     <MESSAGE value="Except_sem_3 Task4.3 solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="Except_sem_3 Task4.3 solved" />
+    <MESSAGE value="Except_sem_3 Task5.1 solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="Except_sem_3 Task5.1 solved" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

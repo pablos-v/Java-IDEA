@@ -12,8 +12,28 @@ package Exeptions_Seminar_3;
 
 public class Task5 {
     public static void main(String[] args) {
-        String[][] arr = new String[0][4];
-        arrayValidator(arr);
+        String[][] arr = new String[4][2];
+        try {
+            arrayValidator(arr);
+        }catch (Task5_exception e){
+            System.out.println(e.getMessage());
+            System.exit(404);
+        }
+        fillArray(arr);
+//        arr[0][2] = "q";
+        try {
+            System.out.println(counter(arr));
+        }catch (Task5_data_exception e){
+            System.out.println("oups! " + e.getMessage());
+        }
+    }
+
+    public static void fillArray(String[][] arr){
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr[0].length; j++) {
+                arr[i][j] = "1";
+            }
+        }
     }
 
     public static void arrayValidator(String[][] arr) {
@@ -22,5 +42,19 @@ public class Task5 {
         } else throw new Task5_exception();
     }
 
+    public static int counter(String[][] arr) throws Task5_data_exception{
+        int sum = 0;
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr[i].length; j++) {
+                try {
+                    Integer.parseInt(arr[i][j]);
+                } catch (NumberFormatException e) {
+                    throw new Task5_data_exception(i, j);
+                }
+                sum += Integer.parseInt(arr[i][j]);
+            }
+        }
+        return sum;
+    }
 
 }
