@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="Except_sem_3 Task4.2 solved">
+    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="Except_sem_3 Task4.3 solved">
+      <change afterPath="$PROJECT_DIR$/src/Exeptions_Seminar_3/Task5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exeptions_Seminar_3/Task5_exception.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exeptions_Seminar_3/Task4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exeptions_Seminar_3/Task4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exeptions_Seminar_3/Task4_solved.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exeptions_Seminar_3/Task4_solved.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +93,7 @@
       <recent name="HOmeWork" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Task4">
+  <component name="RunManager" selected="Application.Task5">
     <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Exeptions_Seminar_3.Task2" />
       <module name="training" />
@@ -133,8 +133,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Task5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exeptions_Seminar_3.Task5" />
+      <module name="training" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Exeptions_Seminar_3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task5" />
         <item itemvalue="Application.Task4" />
         <item itemvalue="Application.Task3" />
         <item itemvalue="Application.Task2" />
@@ -149,13 +163,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654680369571</updated>
-    </task>
-    <task id="LOCAL-00001" summary="init commit">
-      <created>1654681160449</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1654681160449</updated>
     </task>
     <task id="LOCAL-00002" summary="For N = 2, K = 3 answer &quot;00 01 02 10 11 12 20 21 22&quot;">
       <created>1654684841109</created>
@@ -493,7 +500,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666010220774</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Except_sem_3 Task4.3 solved">
+      <created>1666011942598</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1666011942598</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -538,7 +552,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Genealogy tree findSiblings() optimized" />
     <MESSAGE value="Genealogy tree findSiblings() optimized, allPersonsInTree() added" />
     <MESSAGE value="Genealogy tree Compare added" />
     <MESSAGE value="Genealogy tree trying to use Stream API, can be optimized" />
@@ -563,7 +576,8 @@
     <MESSAGE value="Except_sem_3 Task3 solved" />
     <MESSAGE value="Except_sem_3 Task4.1 solved" />
     <MESSAGE value="Except_sem_3 Task4.2 solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="Except_sem_3 Task4.2 solved" />
+    <MESSAGE value="Except_sem_3 Task4.3 solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="Except_sem_3 Task4.3 solved" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
