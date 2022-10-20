@@ -1,5 +1,6 @@
 package HomeWork;
 
+import java.io.IOException;
 import java.util.ArrayList;
 
 public class Start {
@@ -20,7 +21,7 @@ public class Start {
         ArrayList parsedInput = new ArrayList();
 
         try {
-            parsedInput = validator.checkData();
+            parsedInput = validator.checkAndParseData();
         } catch (DataException e) {
             System.out.println(e.getMessage());
             go();
@@ -28,8 +29,11 @@ public class Start {
 
         Output output = new Output(parsedInput);
 
-        output.writeInFile(); //TODO При возникновении проблемы с чтением-записью в файл, исключение должно
-        // быть корректно обработано, пользователь должен увидеть стектрейс ошибки.
+        try {
+            output.writeInFile();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
     }
 }
