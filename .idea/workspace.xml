@@ -1,12 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="Except_sem_3 Homework going on, 2nd day">
+    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="Except_sem_3 Homework done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork/Input.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork/Input.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork/Output.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork/Output.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork/Start.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork/Validator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exeptions_Seminar_3/Task1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exeptions_Seminar_3/Task1_solved.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exeptions_Seminar_3/Task2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exeptions_Seminar_3/Task3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exeptions_Seminar_3/Task3_counter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exeptions_Seminar_3/Task4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exeptions_Seminar_3/Task4_solved.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exeptions_Seminar_3/Task5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exeptions_Seminar_3/Task5_data_exception.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exeptions_Seminar_3/Task5_exception.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork/DataException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork/Input.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork/LengthException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork/Output.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork/Program.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork/Start.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork/Validator.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +47,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Exceptions_sem_2" />
+        <entry key="$PROJECT_DIR$" value="Exceptions_sem_3" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -62,11 +76,11 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/GB/Training/JAVA-in-IDEA/training&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Global Libraries&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -95,82 +109,6 @@
       <recent name="HOmeWork" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Program">
-    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HomeWork.Program" />
-      <module name="training" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="HomeWork.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exeptions_Seminar_3.Task2" />
-      <module name="training" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Exeptions_Seminar_3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exeptions_Seminar_3.Task3" />
-      <module name="training" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Exeptions_Seminar_3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exeptions_Seminar_3.Task4" />
-      <module name="training" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Exeptions_Seminar_3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exeptions_Seminar_3.Task5" />
-      <module name="training" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Exeptions_Seminar_3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Program" />
-        <item itemvalue="Application.Task5" />
-        <item itemvalue="Application.Task4" />
-        <item itemvalue="Application.Task3" />
-        <item itemvalue="Application.Task2" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -179,13 +117,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654680369571</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Input: word1 = &quot;ab&quot;, word2 = &quot;pqrs&quot;&#10;Output: &quot;apbqrs&quot;">
-      <created>1654853572173</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1654853572173</updated>
     </task>
     <task id="LOCAL-00007" summary="Input: 2? + ?5 = 69&#10;Output: 24 + 45 = 69">
       <created>1654945926781</created>
@@ -523,7 +454,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666200878886</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="Except_sem_3 Homework done">
+      <created>1666283305160</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1666283305160</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -568,7 +506,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Planner. 2dn architecture." />
     <MESSAGE value="Planner. Base for architecture from seminar 4." />
     <MESSAGE value="Planner. Import working." />
     <MESSAGE value="Planner. Main part is ready." />
@@ -593,7 +530,8 @@
     <MESSAGE value="Except_sem_3 Task5 solved" />
     <MESSAGE value="Except_sem_3 Homework started projecting" />
     <MESSAGE value="Except_sem_3 Homework going on, 2nd day" />
-    <option name="LAST_COMMIT_MESSAGE" value="Except_sem_3 Homework going on, 2nd day" />
+    <MESSAGE value="Except_sem_3 Homework done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Except_sem_3 Homework done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
