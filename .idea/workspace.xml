@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="done">
-      <change afterPath="$PROJECT_DIR$/src/Homework/Archer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework/Armour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework/Eqiupment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework/Hero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework/Knight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework/Weapon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework/readme.md" afterDir="false" />
+    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="init">
+      <change afterPath="$PROJECT_DIR$/src/Homework/ArcherArmourFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework/ArcherWeaponFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework/ArmourFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework/KnightArmourFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework/KnightWeaponFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework/WeaponFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/Angle3D.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/Camera.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/Flash.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/Model.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/ModelStore.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/Point3D.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/Poligon.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/Scene.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/Texture.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework/Archer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework/Archer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework/Armour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework/Armour.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework/Eqiupment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework/Eqiupment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework/Knight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework/Weapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework/Weapon.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,13 +174,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654680369571</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Sem 3 HorseMove">
-      <created>1655305600610</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1655305600610</updated>
     </task>
     <task id="LOCAL-00010" summary="OOP Practice tasks ready">
       <created>1655558274111</created>
@@ -522,7 +511,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666707293793</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="init">
+      <created>1667058374126</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1667058374126</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -590,9 +586,9 @@
     <MESSAGE value="Except_sem_3 Homework started projecting" />
     <MESSAGE value="Except_sem_3 Homework going on, 2nd day" />
     <MESSAGE value="Except_sem_3 Homework done" />
-    <MESSAGE value="init" />
     <MESSAGE value="done" />
-    <option name="LAST_COMMIT_MESSAGE" value="done" />
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
