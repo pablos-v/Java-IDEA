@@ -1,10 +1,13 @@
-package Homework;
+package Homework.Heroes;
+
+import Homework.Equipment.Armour;
+import Homework.Equipment.Weapon;
 
 abstract class Hero {
     protected static int id = 0;
     protected int hp;
-    protected Weapon weapon;
-    protected Armour armour;
+    public Weapon weapon;
+    public Armour armour;
 
     public void getDamage(int hit) {
         hp = hp - (armour.blockPower - hit);

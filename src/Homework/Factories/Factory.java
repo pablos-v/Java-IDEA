@@ -1,4 +1,4 @@
-package Homework;
+package Homework.Factories;
 
 abstract class Factory {
 }

@@ -1,12 +1,16 @@
-package Homework;
+package Homework.Equipment;
 
 public class Weapon extends Eqiupment {
 
-    protected int atackPower;
+    public int atackPower;
 
     public Weapon(int level, String name) {
         this.name = name;
         atackPower = level * 10;
+    }
+
+    public String getName() {
+        return name;
     }
 
     @Override
