@@ -16,7 +16,7 @@ public class Triangle extends Figure {
     }
 
     @Override
-    protected int countPerimeter() {
+    protected double countPerimeter() {
         return a + b + c;
     }
 

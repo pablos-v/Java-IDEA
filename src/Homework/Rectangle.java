@@ -19,7 +19,7 @@ public class Rectangle extends Figure {
     }
 
     @Override
-    protected int countPerimeter() {
+    protected double countPerimeter() {
         return (a + b) * 2;
     }
 }

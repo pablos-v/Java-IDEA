@@ -6,7 +6,7 @@ abstract class Figure {
 
     abstract protected double countSquare();
 
-    abstract protected int countPerimeter();
+    abstract protected double countPerimeter();
 
     abstract protected boolean check();
 }

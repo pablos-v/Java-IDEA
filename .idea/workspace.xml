@@ -1,29 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="done">
-      <change afterPath="$PROJECT_DIR$/src/Homework/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework/Figure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework/README.MD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework/arch.drawio.png" afterDir="false" />
+    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="init">
+      <change afterPath="$PROJECT_DIR$/src/Homework/Program.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/Equipment/Armour.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/Equipment/Eqiupment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/Equipment/Weapon.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/Factories/ArcherArmourFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/Factories/ArcherWeaponFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/Factories/ArmourFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/Factories/Factory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/Factories/KnightArmourFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/Factories/KnightWeaponFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/Factories/WeaponFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/Heroes/Archer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/Heroes/Hero.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/Heroes/Knight.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/Program.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework/Figure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework/Figure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework/Triangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +39,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -113,7 +99,7 @@
       <recent name="HOmeWork" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Program">
+  <component name="RunManager">
     <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Homework.Program" />
       <module name="training" />
@@ -127,65 +113,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exeptions_Seminar_3.Task2" />
-      <module name="training" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Exeptions_Seminar_3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exeptions_Seminar_3.Task3" />
-      <module name="training" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Exeptions_Seminar_3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exeptions_Seminar_3.Task4" />
-      <module name="training" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Exeptions_Seminar_3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exeptions_Seminar_3.Task5" />
-      <module name="training" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Exeptions_Seminar_3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Program" />
-        <item itemvalue="Application.Task5" />
-        <item itemvalue="Application.Task4" />
-        <item itemvalue="Application.Task3" />
-        <item itemvalue="Application.Task2" />
       </list>
     </recent_temporary>
   </component>
@@ -197,13 +127,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654680369571</updated>
-    </task>
-    <task id="LOCAL-00012" summary="seminar 5 HeapSort">
-      <created>1656076800311</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1656076800311</updated>
     </task>
     <task id="LOCAL-00013" summary="seminar 6 PolishNotation">
       <created>1656184367420</created>
@@ -541,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667062191548</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="init">
+      <created>1667239245982</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1667239245984</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -608,10 +538,10 @@
     <MESSAGE value="Except_sem_3 Homework started projecting" />
     <MESSAGE value="Except_sem_3 Homework going on, 2nd day" />
     <MESSAGE value="Except_sem_3 Homework done" />
-    <MESSAGE value="init" />
     <MESSAGE value="Hide factories in directory&#10;TODO singleton" />
     <MESSAGE value="done" />
-    <option name="LAST_COMMIT_MESSAGE" value="done" />
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

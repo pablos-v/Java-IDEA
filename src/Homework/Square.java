@@ -18,7 +18,7 @@ public class Square extends Figure {
     }
 
     @Override
-    protected int countPerimeter() {
+    protected double countPerimeter() {
         return a * 4;
     }
 }

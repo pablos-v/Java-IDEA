@@ -9,12 +9,12 @@ public class Circle extends Figure {
 
     @Override
     protected double countSquare() {
-        return 0;
+        return Math.pow(Math.PI, a);
     }
 
     @Override
-    protected int countPerimeter() {
-        return 0;
+    protected double countPerimeter() {
+        return 2 * Math.PI * a;
     }
 
     @Override
