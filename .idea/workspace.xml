@@ -1,23 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="Hide factories in directory&#10;TODO singleton">
-      <change afterPath="$PROJECT_DIR$/src/Homework/Program.java" afterDir="false" />
+    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="done">
+      <change afterPath="$PROJECT_DIR$/src/Homework/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework/Figure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework/README.MD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework/arch.drawio.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/Archer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework/Heroes/Archer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/ArcherArmourFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework/Factories/ArcherArmourFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/ArcherWeaponFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework/Factories/ArcherWeaponFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/Armour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework/Equipment/Armour.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/ArmourFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework/Factories/ArmourFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/Eqiupment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework/Equipment/Eqiupment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework/Factories/Factory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework/Heroes/Hero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework/Heroes/Knight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/KnightArmourFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework/Factories/KnightArmourFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/KnightWeaponFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework/Factories/KnightWeaponFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/Weapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework/Equipment/Weapon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/WeaponFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework/Factories/WeaponFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework/Equipment/Armour.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework/Equipment/Eqiupment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework/Equipment/Weapon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework/Factories/ArcherArmourFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework/Factories/ArcherWeaponFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework/Factories/ArmourFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework/Factories/Factory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework/Factories/KnightArmourFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework/Factories/KnightWeaponFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework/Factories/WeaponFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework/Heroes/Archer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework/Heroes/Hero.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework/Heroes/Knight.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework/Program.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +50,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Software_architecture_seminar_1" />
+        <entry key="$PROJECT_DIR$" value="Software_architecture_seminar_2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -191,13 +197,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654680369571</updated>
-    </task>
-    <task id="LOCAL-00011" summary="seminar4 UndergroundSystem OOP task">
-      <created>1655728073133</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1655728073133</updated>
     </task>
     <task id="LOCAL-00012" summary="seminar 5 HeapSort">
       <created>1656076800311</created>
@@ -535,7 +534,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667060687357</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="done">
+      <created>1667062191548</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1667062191548</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -602,10 +608,10 @@
     <MESSAGE value="Except_sem_3 Homework started projecting" />
     <MESSAGE value="Except_sem_3 Homework going on, 2nd day" />
     <MESSAGE value="Except_sem_3 Homework done" />
-    <MESSAGE value="done" />
     <MESSAGE value="init" />
     <MESSAGE value="Hide factories in directory&#10;TODO singleton" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hide factories in directory&#10;TODO singleton" />
+    <MESSAGE value="done" />
+    <option name="LAST_COMMIT_MESSAGE" value="done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
