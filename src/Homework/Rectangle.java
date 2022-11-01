@@ -6,18 +6,16 @@ public class Rectangle extends Figure {
         super(a, b, 0);
     }
 
-    @Override
-    protected boolean check() {
-        return a > 0 && b > 0;
-    }
 
-    @Override
-    protected double countSquare() {
+    public double countSquare() {
         return a * b;
     }
 
-    @Override
-    protected double countPerimeter() {
+    public double countPerimeter() {
         return (a + b) * 2;
+    }
+
+    public boolean check() {
+        return a > 0 && b > 0;
     }
 }

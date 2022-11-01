@@ -6,18 +6,15 @@ public class Circle extends Figure {
         super(a, 0, 0);
     }
 
-    @Override
-    protected double countSquare() {
+    public double countSquare() {
         return Math.pow(Math.PI, a);
     }
 
-    @Override
-    protected double countPerimeter() {
+    public double countPerimeter() {
         return 2 * Math.PI * a;
     }
 
-    @Override
-    protected boolean check() {
+    public boolean check() {
         return a > 0;
     }
 }

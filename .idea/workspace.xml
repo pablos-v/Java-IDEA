@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="done">
+    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="corrected. interfaces needed?">
+      <change afterPath="$PROJECT_DIR$/src/Homework/Checker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework/CountPerimeter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework/CountSquare.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Homework/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework/Circle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Homework/Figure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework/Figure.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Homework/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework/Program.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Homework/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework/Square.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Homework/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework/Triangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,8 +29,8 @@
       <list>
         <option value="UML Sequence" />
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -115,7 +117,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Program" />
+        <item itemvalue="Application.Homework.Program" />
       </list>
     </recent_temporary>
   </component>
@@ -127,13 +129,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654680369571</updated>
-    </task>
-    <task id="LOCAL-00014" summary="seminar 6 MergeSort">
-      <created>1656429521975</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1656429521976</updated>
     </task>
     <task id="LOCAL-00015" summary="Wave algorythm">
       <created>1656848580676</created>
@@ -471,7 +466,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667240796175</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="corrected. interfaces needed?">
+      <created>1667299920404</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1667299920404</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -516,7 +518,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Planner. Minor fixes." />
     <MESSAGE value="Messager start with minor fixes" />
     <MESSAGE value="Messager abstract user, admin role added" />
     <MESSAGE value="Messager MVP pattern" />
@@ -541,7 +542,8 @@
     <MESSAGE value="Hide factories in directory&#10;TODO singleton" />
     <MESSAGE value="init" />
     <MESSAGE value="done" />
-    <option name="LAST_COMMIT_MESSAGE" value="done" />
+    <MESSAGE value="corrected. interfaces needed?" />
+    <option name="LAST_COMMIT_MESSAGE" value="corrected. interfaces needed?" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

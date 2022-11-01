@@ -1,6 +1,6 @@
 package Homework;
 
-abstract class Figure {
+abstract class Figure implements CountSquare, CountPerimeter, Checker{
 
     protected int a, b, c;
 
@@ -10,10 +10,4 @@ abstract class Figure {
         this.c = c;
         if (!check()) throw new RuntimeException("This figure is not possible!");
     }
-
-    abstract protected double countSquare();
-
-    abstract protected double countPerimeter();
-
-    abstract protected boolean check();
 }
