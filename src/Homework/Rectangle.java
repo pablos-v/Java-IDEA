@@ -3,9 +3,7 @@ package Homework;
 public class Rectangle extends Figure {
 
     public Rectangle(int a, int b) {
-        this.a = a;
-        this.b = b;
-        if (!check()) throw new RuntimeException("This figure is not possible!");
+        super(a, b, 0);
     }
 
     @Override

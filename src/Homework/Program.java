@@ -9,7 +9,7 @@ public class Program {
         array.add(new Triangle(2,3,4));
         array.add(new Circle(12));
         array.add(new Rectangle(4,1));
-        array.add(new Square(7));
+        array.add(new Square(2));
 
         double squareSum = 0;
         for (Figure figure:array             ) {

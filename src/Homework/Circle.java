@@ -3,8 +3,7 @@ package Homework;
 public class Circle extends Figure {
 
     public Circle(int a) {
-        this.a = a;
-        if (!check()) throw new RuntimeException("This figure is not possible!");
+        super(a, 0, 0);
     }
 
     @Override

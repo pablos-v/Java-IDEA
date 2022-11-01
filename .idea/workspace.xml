@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="init">
-      <change afterPath="$PROJECT_DIR$/src/Homework/Program.java" afterDir="false" />
+    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Homework/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework/Circle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Homework/Figure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework/Figure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework/Program.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Homework/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework/Rectangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Homework/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework/Square.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Homework/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework/Triangle.java" afterDir="false" />
@@ -127,13 +127,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654680369571</updated>
-    </task>
-    <task id="LOCAL-00013" summary="seminar 6 PolishNotation">
-      <created>1656184367420</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1656184367421</updated>
     </task>
     <task id="LOCAL-00014" summary="seminar 6 MergeSort">
       <created>1656429521975</created>
@@ -471,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667239245984</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="done">
+      <created>1667240796175</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1667240796175</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -539,9 +539,9 @@
     <MESSAGE value="Except_sem_3 Homework going on, 2nd day" />
     <MESSAGE value="Except_sem_3 Homework done" />
     <MESSAGE value="Hide factories in directory&#10;TODO singleton" />
-    <MESSAGE value="done" />
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="done" />
+    <option name="LAST_COMMIT_MESSAGE" value="done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

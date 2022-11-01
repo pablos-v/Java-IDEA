@@ -3,10 +3,7 @@ package Homework;
 public class Triangle extends Figure {
 
     public Triangle(int a, int b, int c) {
-        this.a = a;
-        this.b = b;
-        this.c = c;
-        if (!check()) throw new RuntimeException("This figure is not possible!");
+        super(a, b, c);
     }
 
     @Override

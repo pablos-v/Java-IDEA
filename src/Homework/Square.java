@@ -1,24 +1,11 @@
 package Homework;
 
-public class Square extends Figure {
+public class Square extends Rectangle {
 
     public Square(int a) {
-        this.a = a;
-        if (!check()) throw new RuntimeException("This figure is not possible!");
+        super(a, a);
     }
 
-    @Override
-    protected boolean check() {
-        return a > 0;
-    }
-
-    @Override
-    protected double countSquare() {
-        return a * a;
-    }
-
-    @Override
-    protected double countPerimeter() {
-        return a * 4;
-    }
 }
+
+
