@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="corrected with interfaces">
+    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="corrected with perimeterCheck">
+      <change afterPath="$PROJECT_DIR$/src/Homework/task.drawio.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/Checker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/CountPerimeter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/CountSquare.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/Figure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework/Figure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/arch.drawio.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework/Figure.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework/Program.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework/README.MD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework/Square.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework/Triangle.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +37,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Software_architecture_seminar_2" />
+        <entry key="$PROJECT_DIR$" value="Software_architecture_seminar_3" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -128,13 +129,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654680369571</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Solution https://leetcode.com/problems/01-matrix/">
-      <created>1656867507428</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1656867507428</updated>
     </task>
     <task id="LOCAL-00017" summary="Genealogy tree project folder. Ready to fix.">
       <created>1657793046760</created>
@@ -472,7 +466,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667302260473</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="corrected with perimeterCheck">
+      <created>1667392155555</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1667392155555</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -517,7 +518,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Messager abstract user, admin role added" />
     <MESSAGE value="Messager MVP pattern" />
     <MESSAGE value="Messager DB added as interface" />
     <MESSAGE value="Lection 6 training" />
@@ -542,7 +542,8 @@
     <MESSAGE value="done" />
     <MESSAGE value="corrected. interfaces needed?" />
     <MESSAGE value="corrected with interfaces" />
-    <option name="LAST_COMMIT_MESSAGE" value="corrected with interfaces" />
+    <MESSAGE value="corrected with perimeterCheck" />
+    <option name="LAST_COMMIT_MESSAGE" value="corrected with perimeterCheck" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
