@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="corrected. interfaces needed?">
-      <change afterPath="$PROJECT_DIR$/src/Homework/Checker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework/CountPerimeter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework/CountSquare.java" afterDir="false" />
+    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="corrected with interfaces">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework/Checker.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Homework/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework/CountPerimeter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework/CountSquare.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Homework/Figure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework/Figure.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Homework/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework/arch.drawio.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,19 +60,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultPlantUmlFileTemplate&quot;: &quot;UML Sequence&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/GB/Training/JAVA-in-IDEA/training&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultPlantUmlFileTemplate": "UML Sequence",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/GB/Training/JAVA-in-IDEA/training",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Color Scheme Font"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Homework" />
@@ -117,7 +116,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Homework.Program" />
+        <item itemvalue="Application.Program" />
       </list>
     </recent_temporary>
   </component>
@@ -129,13 +128,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654680369571</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Wave algorythm">
-      <created>1656848580676</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1656848580677</updated>
     </task>
     <task id="LOCAL-00016" summary="Solution https://leetcode.com/problems/01-matrix/">
       <created>1656867507428</created>
@@ -473,7 +465,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667299920404</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="corrected with interfaces">
+      <created>1667302260473</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1667302260473</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -518,7 +517,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Messager start with minor fixes" />
     <MESSAGE value="Messager abstract user, admin role added" />
     <MESSAGE value="Messager MVP pattern" />
     <MESSAGE value="Messager DB added as interface" />
@@ -543,7 +541,8 @@
     <MESSAGE value="init" />
     <MESSAGE value="done" />
     <MESSAGE value="corrected. interfaces needed?" />
-    <option name="LAST_COMMIT_MESSAGE" value="corrected. interfaces needed?" />
+    <MESSAGE value="corrected with interfaces" />
+    <option name="LAST_COMMIT_MESSAGE" value="corrected with interfaces" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -563,12 +562,16 @@
       </breakpoints>
     </breakpoint-manager>
   </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/training$GenTreeProject_Main.ic" NAME="GenTreeProject.Main Coverage Results" MODIFIED="1658143491647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>GenTreeProject.*</FILTER>
-    </SUITE>
     <SUITE FILE_PATH="coverage/training$Program.ic" NAME="Program Coverage Results" MODIFIED="1665837517184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>HomeWork.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/training$GenTreeProject_Main.ic" NAME="GenTreeProject.Main Coverage Results" MODIFIED="1658143491647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>GenTreeProject.*</FILTER>
     </SUITE>
   </component>
 </project>

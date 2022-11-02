@@ -19,7 +19,9 @@ public class Program {
 
         double perimeterSum = 0;
         for (Figure figure : array) {
-            perimeterSum += figure.countPerimeter();
+            if (figure.hasPerimeter){
+                perimeterSum += figure.countPerimeter();
+            }
         }
         System.out.println(perimeterSum);
     }
