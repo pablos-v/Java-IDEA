@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="use-case diargram">
-      <change afterPath="$PROJECT_DIR$/src/Homework/Domain_model.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework/component_login.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework/component_menu_admin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework/component_menu_client.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework/component_menu_doctor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework/component_registration.png" afterDir="false" />
+    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="components ready">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/use-case.drawio.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework/use-case.drawio.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework/Domain_model.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework/Domain_model.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,13 +125,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654680369571</updated>
-    </task>
-    <task id="LOCAL-00020" summary="Genealogy tree all review comments done">
-      <created>1657829488103</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1657829488103</updated>
     </task>
     <task id="LOCAL-00021" summary="Genealogy tree Research improved GenTree interface">
       <created>1657908353746</created>
@@ -475,7 +462,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669847033027</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="components ready">
+      <created>1669853333965</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1669853333965</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -520,7 +514,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Messager DB added as interface" />
     <MESSAGE value="Lection 6 training" />
     <MESSAGE value="Lection 6 training finished" />
     <MESSAGE value="Homework done, but exception" />
@@ -545,7 +538,8 @@
     <MESSAGE value="init" />
     <MESSAGE value="done" />
     <MESSAGE value="use-case diargram" />
-    <option name="LAST_COMMIT_MESSAGE" value="use-case diargram" />
+    <MESSAGE value="components ready" />
+    <option name="LAST_COMMIT_MESSAGE" value="components ready" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
