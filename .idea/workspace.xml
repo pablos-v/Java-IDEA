@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="ERD ready">
-      <change afterPath="$PROJECT_DIR$/src/Homework/screen_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework/screen_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework/screen_3.png" afterDir="false" />
+    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="init">
+      <change afterPath="$PROJECT_DIR$/src/Homework/Algorithm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework/ERD.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework/MVP_modules.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework/Readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Homework/Domain_model.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework/Domain_model.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/ERD.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/component_login.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/component_menu_admin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/component_menu_client.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/component_menu_doctor.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/component_registration.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/use-case.drawio.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +28,7 @@
         <option value="Enum" />
         <option value="Class" />
         <option value="Interface" />
+        <option value="editable-svg" />
       </list>
     </option>
   </component>
@@ -87,6 +82,7 @@
       <recent name="D:\GB\Training\JAVA-in-IDEA\training\src\Homework" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GB\Training\JAVA-in-IDEA\training\src\Homework" />
       <recent name="D:\GB\Training\JAVA-in-IDEA\training\src\HomeWork" />
       <recent name="D:\GB\Training\JAVA-in-IDEA\training\src" />
     </key>
@@ -136,13 +132,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654680369571</updated>
-    </task>
-    <task id="LOCAL-00023" summary="Genealogy tree GenTree is abstract class, Research is interface">
-      <created>1657911528366</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1657911528367</updated>
     </task>
     <task id="LOCAL-00024" summary="Genealogy tree made fixes after 2nd review">
       <created>1657967551305</created>
@@ -480,7 +469,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669922365021</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="init">
+      <created>1670625897227</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1670625897227</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -546,12 +542,12 @@
     <MESSAGE value="corrected. interfaces needed?" />
     <MESSAGE value="corrected with interfaces" />
     <MESSAGE value="corrected with perimeterCheck" />
-    <MESSAGE value="init" />
     <MESSAGE value="done" />
     <MESSAGE value="use-case diargram" />
     <MESSAGE value="components ready" />
     <MESSAGE value="ERD ready" />
-    <option name="LAST_COMMIT_MESSAGE" value="ERD ready" />
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
