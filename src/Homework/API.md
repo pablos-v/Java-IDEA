@@ -18,6 +18,12 @@ POST https://MyVacAppServer.com/user/
 "vac" : "ID"  
 }
 ---
+#### ОБНОВЛЕНИЕ ПЫЛЕСОСА
+GET https://MyVacAppServer.com/vac/firmware  
+{  
+Accept:application/json  
+}
+---
 #### ПОЛУЧИТЬ КАРТУ
 GET https://MyVacAppServer.com/vac/map  
 {  
