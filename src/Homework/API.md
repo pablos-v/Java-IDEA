@@ -24,6 +24,14 @@ GET https://MyVacAppServer.com/vac/firmware
 Accept:application/json  
 }
 ---
+#### ОТПРАВИТЬ ДИАГН ДАННЫЕ
+PUT https://ServerProizvoditelya.com/ego/api  
+{  
+"VacName" : "Vacuum1", 
+"Danniye" : "String",
+"shedule" : SheduleDict{}  
+}
+---
 #### ПОЛУЧИТЬ КАРТУ
 GET https://MyVacAppServer.com/vac/map  
 {  
