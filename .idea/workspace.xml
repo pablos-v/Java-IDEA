@@ -1,26 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="ready API">
-      <change afterPath="$PROJECT_DIR$/src/Homework/dice.java" afterDir="false" />
+    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="rabota na seminare">
+      <change afterPath="$PROJECT_DIR$/src/Homework/HeapSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WorkOnFlow/lectSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/API.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/Components/component_auth.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/Components/component_menu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/Components/component_reg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/Components/component_reg_vac.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/Components/component_upgrade.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/DomainModel.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/ERD.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/Readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/UI/UI_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/UI/UI_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/UI/UI_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/UI/UI_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/UI/UI_5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/UI/UI_6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/UI/UI_7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/USE-Case.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework/dice.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +34,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Software_architecture_seminar_10" />
+        <entry key="$PROJECT_DIR$" value="algorithms_sem_1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -119,7 +105,7 @@
       <recent name="HOmeWork" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.dice">
+  <component name="RunManager" selected="Application.lectSort">
     <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Homework.Program" />
       <module name="training" />
@@ -146,8 +132,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="lectSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WorkOnFlow.lectSort" />
+      <module name="training" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WorkOnFlow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.lectSort" />
         <item itemvalue="Application.dice" />
         <item itemvalue="Application.Program" />
       </list>
@@ -161,13 +161,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654680369571</updated>
-    </task>
-    <task id="LOCAL-00028" summary="Genealogy tree trying to use Stream API, can be optimized">
-      <created>1658406910576</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1658406910577</updated>
     </task>
     <task id="LOCAL-00029" summary="Planner. 1st architecture.">
       <created>1658864455251</created>
@@ -505,7 +498,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671495114596</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="rabota na seminare">
+      <created>1671579302710</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1671579302710</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -551,8 +551,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Readme added as homework 7" />
-    <MESSAGE value="Readme added as homework 7 + fixes" />
     <MESSAGE value="Except_sem_3 Task1 solved" />
     <MESSAGE value="Except_sem_3 Task2 solved" />
     <MESSAGE value="Except_sem_3 Task3 solved" />
@@ -576,7 +574,9 @@
     <MESSAGE value="1-st part ready" />
     <MESSAGE value="ready ERD" />
     <MESSAGE value="ready API" />
-    <option name="LAST_COMMIT_MESSAGE" value="ready API" />
+    <MESSAGE value="кфищеф тф ыуьштфку" />
+    <MESSAGE value="rabota na seminare" />
+    <option name="LAST_COMMIT_MESSAGE" value="rabota na seminare" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
