@@ -3,8 +3,14 @@ package Homework;
 public class HeapSort {
     public static void main(String[] args) {
         int[] arrInput = new int[]{9, 4, 1, 5, 3, 0, 7};
+        long start = System.currentTimeMillis();
+        printer(sorter(arrInput));
         printer(sorter(arrInput));
 
+
+        long fin = System.currentTimeMillis();
+        System.out.println("\n");
+        System.out.println(fin-start);
     }
 
     private static void printer(int[] res) {
@@ -18,21 +24,21 @@ public class HeapSort {
         int end = last / 2 - 1;
         for (int i = 0; i < last; i++) {
             pyramid(arrInput, end);
-            swap(arrInput, arrInput[0], arrInput[last--]);
+            swap(arrInput, 0, last--);
         }
         return arrInput;
     }
 
     public static void pyramid(int[] arr, int end) {
 
-        for (int i = 0; i < end; i++) {
-            checker(arr, arr[i], arr[i * 2 + 1], arr[i * 2 + 2]);
+        for (int i = 0; i <= end--; i++) {
+            checker(arr, i, (i * 2 + 1), (i * 2 + 2));
         }
     }
 
     public static void checker(int[] arr, int a, int b, int c) {
-        if (a < b) swap(arr, a, b);
-        if (a < c) swap(arr, a, c);
+        if (arr[a] < arr[b]) swap(arr, a, b);
+        if (arr[a] < arr[c]) swap(arr, a, c);
     }
 
     public static void swap(int[] arr, int a, int b) {
