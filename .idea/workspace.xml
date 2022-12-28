@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="init">
-      <change afterPath="$PROJECT_DIR$/src/Homework/RedBlackTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WorkOnFlow/BinTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WorkOnFlow/HashTable.java" afterDir="false" />
+    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="RedBlackTree init">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WorkOnFlow/lectSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework/RedBlackTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework/RedBlackTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +42,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
@@ -106,7 +102,7 @@
       <recent name="HOmeWork" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.RedBlackTree">
     <configuration name="HashTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="WorkOnFlow.HashTable" />
       <module name="training" />
@@ -120,8 +116,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RedBlackTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Homework.RedBlackTree" />
+      <module name="training" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RedBlackTree" />
         <item itemvalue="Application.HashTable" />
       </list>
     </recent_temporary>
@@ -134,13 +144,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654680369571</updated>
-    </task>
-    <task id="LOCAL-00032" summary="Planner. Import working.">
-      <created>1659015377499</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1659015377499</updated>
     </task>
     <task id="LOCAL-00033" summary="Planner. Main part is ready.">
       <created>1659024363849</created>
@@ -478,7 +481,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671981730181</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="RedBlackTree init">
+      <created>1672186812174</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1672186812174</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -524,7 +534,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Except_sem_3 Task3 solved" />
     <MESSAGE value="Except_sem_3 Task4.1 solved" />
     <MESSAGE value="Except_sem_3 Task4.2 solved" />
     <MESSAGE value="Except_sem_3 Task4.3 solved" />
@@ -549,7 +558,8 @@
     <MESSAGE value="HeapSort init" />
     <MESSAGE value="HeapSort todo" />
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="RedBlackTree init" />
+    <option name="LAST_COMMIT_MESSAGE" value="RedBlackTree init" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
