@@ -26,32 +26,29 @@ public class RedBlackTree {
     }
 
     public void insert(int value) {
-        if (root.value == null) root.value = value;
-        else {
             Node cur = root;
-
-            while (cur != null) {
+            while (root.value != null) {
                 if (value <= cur.value) {
                     if (cur.left == null) {
-                        cur.left = new Node(value); // как вернуться?
+                        cur.left = new Node(value);
                         return;
                     } else {
                         cur = cur.left;
                     }
                 } else {
                     if (cur.right == null) {
-                        cur.right = new Node(value); // как вернуться?
+                        cur.right = new Node(value);
                         return;
                     } else {
                         cur = cur.right;
                     }
                 }
             }
+            root.value = value; // До этой строки дойдёт только если дерево ещё пустое
         }
-    }
 
     public void balance() {
-
+// TODO
     }
 
     public void rotateLeft() {
