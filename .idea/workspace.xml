@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="RedBlackTree insert modified">
+    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="RedBlackTree logic changed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Homework/RedBlackTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework/RedBlackTree.java" afterDir="false" />
     </list>
@@ -144,13 +144,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654680369571</updated>
-    </task>
-    <task id="LOCAL-00035" summary="Messager start with minor fixes">
-      <created>1659523103307</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1659523103307</updated>
     </task>
     <task id="LOCAL-00036" summary="Messager abstract user, admin role added">
       <created>1659538876219</created>
@@ -488,7 +481,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672338877896</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="RedBlackTree logic changed">
+      <created>1672367474365</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1672367474365</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -534,7 +534,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Except_sem_3 Task4.3 solved" />
     <MESSAGE value="Except_sem_3 Task5.1 solved" />
     <MESSAGE value="Except_sem_3 Task5 solved" />
     <MESSAGE value="Except_sem_3 Homework started projecting" />
@@ -559,7 +558,8 @@
     <MESSAGE value="RedBlackTree init" />
     <MESSAGE value="RedBlackTree закостылил!" />
     <MESSAGE value="RedBlackTree insert modified" />
-    <option name="LAST_COMMIT_MESSAGE" value="RedBlackTree insert modified" />
+    <MESSAGE value="RedBlackTree logic changed" />
+    <option name="LAST_COMMIT_MESSAGE" value="RedBlackTree logic changed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -576,6 +576,11 @@
           <properties class="Exeptions_Seminar_3.Task4_solved" package="Exeptions_Seminar_3" />
           <option name="timeStamp" value="11" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Homework/RedBlackTree.java</url>
+          <line>135</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

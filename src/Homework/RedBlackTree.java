@@ -49,21 +49,21 @@ public class RedBlackTree {
     }
 
     public void balance(Node cur) {
-        if (cur == root) return;
         boolean needCheck = true;
         while (needCheck) {
             needCheck = false;
-            if (cur.left.color == Colors.BLACK && cur.right.color == Colors.RED) {
+            // TODO fix check to ba able to rotate root
+            if (exists(cur.left, cur.right) && cur.left.color == Colors.BLACK && cur.right.color == Colors.RED) {
                 rotateLeft(cur);
                 needCheck = true;
             }
 
-            if (cur.color == Colors.RED && cur.left.color == Colors.RED) {
+            if (exists(cur.left, cur.right) && cur.color == Colors.RED && cur.left.color == Colors.RED) {
                 rotateRight(cur);
                 needCheck = true;
             }
 
-            if (cur.left.color == Colors.RED && cur.right.color == Colors.RED) {
+            if (exists(cur.left, cur.right) && cur.left.color == Colors.RED && cur.right.color == Colors.RED) {
                 changeColor(cur);
                 needCheck = true;
             }
@@ -72,18 +72,41 @@ public class RedBlackTree {
         balance(cur.parent);
     }
 
-    public void rotateLeft(Node cur) {
-
+    public void rotateLeft(Node node) {
+        // TODO check root
+        Node cur = node.right;
+        cur.parent = node.parent;
+        node.parent = cur;
+        node.right = cur.left;
+        cur.left.parent = node;
+        cur.left = node;
+        node.color = Colors.RED;
+        cur.color = Colors.BLACK;
     }
 
-    public void rotateRight(Node cur) {
-
+    public void rotateRight(Node node) {
+        Node cur = node.parent;
+        if (cur == root) {
+            node.parent = null;
+            root = node;
+        }
+        else node.parent = cur.parent;
+        cur.parent = node;
+        cur.left = node.right;
+        node.right.parent = cur;
+        node.right = cur;
+        cur.color = Colors.RED;
+        node.color = Colors.BLACK;
     }
 
     public void changeColor(Node cur) {
         cur.color = Colors.RED;
         cur.left.color = Colors.BLACK;
         cur.right.color = Colors.BLACK;
+    }
+
+    public boolean exists(Node n, Node r){
+        return n != null && r != null;
     }
 
     public Node find(int value) {
