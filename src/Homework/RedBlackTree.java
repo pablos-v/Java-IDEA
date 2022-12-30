@@ -4,8 +4,7 @@ public class RedBlackTree {
     Node root;
 
     public RedBlackTree() { // конструктор создаёт корневую чёрную ноду
-        this.root = new Node(null);
-        root.isRoot = true;
+        this.root = new Node(null, null);
         root.color = Colors.BLACK;
     }
 
@@ -16,51 +15,75 @@ public class RedBlackTree {
 
     public class Node {
         Integer value;
-        boolean isRoot = false;
         Colors color = Colors.RED;
-        Node left, right;
+        Node left, right, parent;
 
-        public Node(Integer value) {
+        public Node(Integer value, Node parent) {
             this.value = value;
+            this.parent = parent;
         }
     }
 
     public void insert(int value) {
-            Node cur = root;
-            while (root.value != null) {
-                if (value <= cur.value) {
-                    if (cur.left == null) {
-                        cur.left = new Node(value);
-                        return;
-                    } else {
-                        cur = cur.left;
-                    }
+        Node cur = root;
+        while (root.value != null) {
+            if (value <= cur.value) {
+                if (cur.left == null) {
+                    cur.left = new Node(value, cur);
+                    balance(cur);
+                    return;
                 } else {
-                    if (cur.right == null) {
-                        cur.right = new Node(value);
-                        return;
-                    } else {
-                        cur = cur.right;
-                    }
+                    cur = cur.left;
+                }
+            } else {
+                if (cur.right == null) {
+                    cur.right = new Node(value, cur);
+                    balance(cur);
+                    return;
+                } else {
+                    cur = cur.right;
                 }
             }
-            root.value = value; // До этой строки дойдёт только если дерево ещё пустое
         }
-
-    public void balance() {
-// TODO
+        root.value = value; // До этой строки дойдёт только если дерево ещё пустое
     }
 
-    public void rotateLeft() {
+    public void balance(Node cur) {
+        if (cur == root) return;
+        boolean needCheck = true;
+        while (needCheck) {
+            needCheck = false;
+            if (cur.left.color == Colors.BLACK && cur.right.color == Colors.RED) {
+                rotateLeft(cur);
+                needCheck = true;
+            }
+
+            if (cur.color == Colors.RED && cur.left.color == Colors.RED) {
+                rotateRight(cur);
+                needCheck = true;
+            }
+
+            if (cur.left.color == Colors.RED && cur.right.color == Colors.RED) {
+                changeColor(cur);
+                needCheck = true;
+            }
+        }
+        if (root.color == Colors.RED) root.color = Colors.BLACK;
+        balance(cur.parent);
+    }
+
+    public void rotateLeft(Node cur) {
 
     }
 
-    public void rotateRight() {
+    public void rotateRight(Node cur) {
 
     }
 
-    public void changeColor() {
-
+    public void changeColor(Node cur) {
+        cur.color = Colors.RED;
+        cur.left.color = Colors.BLACK;
+        cur.right.color = Colors.BLACK;
     }
 
     public Node find(int value) {
