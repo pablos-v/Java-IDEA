@@ -75,7 +75,10 @@ public class RedBlackTree {
         if (node == root) {
             cur.parent = null;
             root = cur;
-        } else cur.parent = node.parent;
+        } else {
+            cur.parent = node.parent;
+            node.parent.left = cur;
+        }
         node.parent = cur;
         node.right = cur.left;
         if (cur.left != null) cur.left.parent = node;
@@ -89,7 +92,10 @@ public class RedBlackTree {
         if (cur == root) {
             node.parent = null;
             root = node;
-        } else node.parent = cur.parent;
+        } else {
+            node.parent = cur.parent;
+            cur.parent.right = node; //
+        }
         cur.parent = node;
         cur.left = node.right;
         if (cur.right != null) node.right.parent = cur;
@@ -119,13 +125,13 @@ public class RedBlackTree {
 
     public static void main(String[] args) {
         RedBlackTree tree = new RedBlackTree();
-        tree.insert(10);
-        tree.insert(13);
-        tree.insert(7);
-        tree.insert(11);
-        tree.insert(15);
+        tree.insert(24);
         tree.insert(5);
+        tree.insert(1);
+        tree.insert(15);
+        tree.insert(3);
         tree.insert(8);
+        System.out.println(" <-- Set breakPoint for Debugger ");
     }
 
 }

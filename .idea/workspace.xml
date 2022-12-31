@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="RedBlackTree rotation &amp; balance // TODO fixes">
+    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="RedBlackTree rotation &amp; balance done&#10;working code!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Homework/RedBlackTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework/RedBlackTree.java" afterDir="false" />
     </list>
@@ -144,13 +144,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654680369571</updated>
-    </task>
-    <task id="LOCAL-00037" summary="Messager MVP pattern">
-      <created>1659555608077</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1659555608077</updated>
     </task>
     <task id="LOCAL-00038" summary="Messager DB added as interface">
       <created>1659557869536</created>
@@ -488,7 +481,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672420933271</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="RedBlackTree rotation &amp; balance done&#10;working code!">
+      <created>1672446174227</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1672446174227</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -534,7 +534,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Except_sem_3 Task5 solved" />
     <MESSAGE value="Except_sem_3 Homework started projecting" />
     <MESSAGE value="Except_sem_3 Homework going on, 2nd day" />
     <MESSAGE value="Except_sem_3 Homework done" />
@@ -559,7 +558,8 @@
     <MESSAGE value="RedBlackTree insert modified" />
     <MESSAGE value="RedBlackTree logic changed" />
     <MESSAGE value="RedBlackTree rotation &amp; balance // TODO fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="RedBlackTree rotation &amp; balance // TODO fixes" />
+    <MESSAGE value="RedBlackTree rotation &amp; balance done&#10;working code!" />
+    <option name="LAST_COMMIT_MESSAGE" value="RedBlackTree rotation &amp; balance done&#10;working code!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -576,6 +576,11 @@
           <properties class="Exeptions_Seminar_3.Task4_solved" package="Exeptions_Seminar_3" />
           <option name="timeStamp" value="11" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Homework/RedBlackTree.java</url>
+          <line>133</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <pin-to-top-manager>
@@ -589,6 +594,9 @@
     <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/training$RedBlackTree.ic" NAME="RedBlackTree Coverage Results" MODIFIED="1672447047501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Homework.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/training$Program.ic" NAME="Program Coverage Results" MODIFIED="1665837517184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>HomeWork.*</FILTER>
     </SUITE>
