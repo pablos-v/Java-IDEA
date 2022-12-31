@@ -52,13 +52,12 @@ public class RedBlackTree {
         boolean needCheck = true;
         while (needCheck) {
             needCheck = false;
-            // TODO fix check to ba able to rotate root
-            if (exists(cur.left, cur.right) && cur.left.color == Colors.BLACK && cur.right.color == Colors.RED) {
+            if ((cur.left == null || cur.left.color == Colors.BLACK) && cur.right != null && cur.right.color == Colors.RED) {
                 rotateLeft(cur);
                 needCheck = true;
             }
 
-            if (exists(cur.left, cur.right) && cur.color == Colors.RED && cur.left.color == Colors.RED) {
+            if (cur.color == Colors.RED && cur.left != null && cur.left.color == Colors.RED) {
                 rotateRight(cur);
                 needCheck = true;
             }
@@ -68,17 +67,18 @@ public class RedBlackTree {
                 needCheck = true;
             }
         }
-        if (root.color == Colors.RED) root.color = Colors.BLACK;
-        balance(cur.parent);
+        if (cur.parent != null) balance(cur.parent);
     }
 
     public void rotateLeft(Node node) {
-        // TODO check root
         Node cur = node.right;
-        cur.parent = node.parent;
+        if (node == root) {
+            cur.parent = null;
+            root = cur;
+        } else cur.parent = node.parent;
         node.parent = cur;
         node.right = cur.left;
-        cur.left.parent = node;
+        if (cur.left != null) cur.left.parent = node;
         cur.left = node;
         node.color = Colors.RED;
         cur.color = Colors.BLACK;
@@ -89,23 +89,22 @@ public class RedBlackTree {
         if (cur == root) {
             node.parent = null;
             root = node;
-        }
-        else node.parent = cur.parent;
+        } else node.parent = cur.parent;
         cur.parent = node;
         cur.left = node.right;
-        node.right.parent = cur;
+        if (cur.right != null) node.right.parent = cur;
         node.right = cur;
         cur.color = Colors.RED;
         node.color = Colors.BLACK;
     }
 
     public void changeColor(Node cur) {
-        cur.color = Colors.RED;
+        if (cur != root) cur.color = Colors.RED;
         cur.left.color = Colors.BLACK;
         cur.right.color = Colors.BLACK;
     }
 
-    public boolean exists(Node n, Node r){
+    public boolean exists(Node n, Node r) {
         return n != null && r != null;
     }
 
@@ -118,17 +117,6 @@ public class RedBlackTree {
         return null;
     }
 
-    public void printTree() {
-        System.out.println(root.value);
-        System.out.println(root.left.value);
-        System.out.println(root.right.value);
-        System.out.println("---");
-        System.out.println(root.left.left.value);
-        System.out.println(root.left.right.value);
-        System.out.println(root.right.left.value);
-        System.out.println(root.right.right.value);
-    }
-
     public static void main(String[] args) {
         RedBlackTree tree = new RedBlackTree();
         tree.insert(10);
@@ -138,8 +126,6 @@ public class RedBlackTree {
         tree.insert(15);
         tree.insert(5);
         tree.insert(8);
-        tree.printTree();
-
     }
 
 }
