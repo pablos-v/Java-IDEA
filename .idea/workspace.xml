@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="Input: word1 = &quot;ab&quot;, word2 = &quot;pqrs&quot;&#10;Output: &quot;apbqrs&quot;">
+    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="RedBlackTree Final version">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,13 +38,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "settings.editor.selected.configurable": "IntelliLang.Configuration"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;IntelliLang.Configuration&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -115,6 +116,11 @@
             <State />
           </value>
         </entry>
+        <entry key="db8561c8-28a5-4368-beec-f3a4ee764344">
+          <value>
+            <State />
+          </value>
+        </entry>
       </map>
     </option>
   </component>
@@ -126,5 +132,23 @@
     <MESSAGE value="Input: n = 4, k = 2&#10;Output:&#10;[&#10;  [2,4],&#10;  [3,4],&#10;  [2,3],&#10;  [1,2],&#10;  [1,3],&#10;  [1,4],&#10;]" />
     <MESSAGE value="Input: word1 = &quot;ab&quot;, word2 = &quot;pqrs&quot;&#10;Output: &quot;apbqrs&quot;" />
     <option name="LAST_COMMIT_MESSAGE" value="Input: word1 = &quot;ab&quot;, word2 = &quot;pqrs&quot;&#10;Output: &quot;apbqrs&quot;" />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="Homework.RedBlackTree" memberName="root" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/training$RedBlackTree.ic" NAME="RedBlackTree Coverage Results" MODIFIED="1672447047501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Homework.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/training$Program.ic" NAME="Program Coverage Results" MODIFIED="1665837517184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>HomeWork.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/training$GenTreeProject_Main.ic" NAME="GenTreeProject.Main Coverage Results" MODIFIED="1658143491647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>GenTreeProject.*</FILTER>
+    </SUITE>
   </component>
 </project>

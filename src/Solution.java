@@ -1,21 +1,19 @@
 class Solution {
-    static StringBuilder res = new StringBuilder();
+    public static String whoLikesIt(String... names) {
+        switch (names.length) {
+            case 0:
+                return "no one likes this";
+            case 1:
+                return names[0] + " likes this";
+            case 2:
+                return names[0] + " and " + names[1] + " like this";
+            case 3:
+                return names[0] + ", " + names[1] + " and " + names[2] + " like this";
+            default:
+                return names[0] + ", " + names[1] + " and " + (names.length - 2) + " others like this";
 
-    public static String mergeAlternately(String word1, String word2) {
-        String shortest = word1;
-        String longest = word2;
-        if (word1.length() > word2.length()) {
-            shortest = word2;
-            longest = word1;
         }
-        for (int i = 0; i < shortest.length(); i++) {
-            res.append(word1.charAt(i));
-            res.append(word2.charAt(i));
-        }
-        if (word1.length() == word2.length()) return res.toString();
-        for (int i = shortest.length(); i < longest.length(); i++) {
-            res.append(longest.charAt(i));
-        }
-        return res.toString();
+
     }
+
 }
