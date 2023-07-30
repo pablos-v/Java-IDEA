@@ -37,22 +37,19 @@ The substring starting at 12 is "thefoobar". It is the concatenation of ["the","
         int step = words[0].length();
         int winLen = words.length * step;
         List<Integer> res = new ArrayList<>();
-//        List<String> map = Arrays.asList(words);
         List<String> map = new ArrayList<>(List.of(words));
-//        System.out.println(map.remove("foo"));
         for (int i = 0; i < s.length(); i += step) {
-            // если в map есть подстрока (i, i+step),
-            //    то удалить из мар и проверить если пустой,
-            //                                  то пересоздать, и res.add(i-winLen+step)
-            //                                  иначе продолжить
-            //    иначе пересоздать
-
             if (map.remove(s.substring(i, i + step))) {
                 if (map.isEmpty()) {
                     map = new ArrayList<>(List.of(words));
-                    res.add(i - winLen + step);
+                    i = i - winLen + step;
+                    res.add(i);
                 }
-            } else map = new ArrayList<>(List.of(words));
+            } else {
+                int jump = words.length - map.size();
+                i = i - jump * step;
+                map = new ArrayList<>(List.of(words));
+            }
         }
         return res;
     }
@@ -61,6 +58,9 @@ The substring starting at 12 is "thefoobar". It is the concatenation of ["the","
     public static void main(String[] args) {
         Solution cls = new Solution();
         System.out.println(cls.findSubstring("barfoothefoobarman", new String[]{"foo", "bar"}));
+        System.out.println(cls.findSubstring("wordgoodgoodgoodbestword", new String[]{"word","good","best","word"}));
+        System.out.println(cls.findSubstring("barfoofoobarthefoobarman", new String[]{"bar","foo","the"}));
+        System.out.println(cls.findSubstring("wordgoodgoodgoodbestword", new String[]{"word", "good", "best", "good"}));
     }
 
 }
