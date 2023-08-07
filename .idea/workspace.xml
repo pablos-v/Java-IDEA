@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="RedBlackTree Final version">
+    <list default="true" id="16af7ebe-1044-4c20-8acc-295ea86ab5b9" name="Changes" comment="https://leetcode.com/problems/substring-with-concatenation-of-all-words/ solved HARD (work only if s.length % step == 0)">
+      <change afterPath="$PROJECT_DIR$/src/BankProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Coder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaCoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProgramCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PyCoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StockProgram.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +23,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -42,10 +49,16 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/GB/Training/JAVA/forGit2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;IntelliLang.Configuration&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ProgramCreator">
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="training" />
@@ -53,6 +66,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProgramCreator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bridge_pattern.ProgramCreator" />
+      <module name="training" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution" />
+      <module name="training" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ProgramCreator" />
+        <item itemvalue="Application.Solution" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -105,7 +138,28 @@
       <option name="project" value="LOCAL" />
       <updated>1654853572173</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Who likes it?&#10;https://www.codewars.com/kata/5266876b8f4bf2da9b000362/train/java">
+      <created>1673311054248</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1673311054248</updated>
+    </task>
+    <task id="LOCAL-00008" summary="https://leetcode.com/problems/substring-with-concatenation-of-all-words/ solved HARD">
+      <created>1690746822534</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1690746822534</updated>
+    </task>
+    <task id="LOCAL-00009" summary="https://leetcode.com/problems/substring-with-concatenation-of-all-words/ solved HARD (work only if s.length % step == 0)">
+      <created>1690750516025</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1690750516025</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -131,7 +185,10 @@
     <MESSAGE value="in aaaabbbcdd, out - a4b3cd2" />
     <MESSAGE value="Input: n = 4, k = 2&#10;Output:&#10;[&#10;  [2,4],&#10;  [3,4],&#10;  [2,3],&#10;  [1,2],&#10;  [1,3],&#10;  [1,4],&#10;]" />
     <MESSAGE value="Input: word1 = &quot;ab&quot;, word2 = &quot;pqrs&quot;&#10;Output: &quot;apbqrs&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Input: word1 = &quot;ab&quot;, word2 = &quot;pqrs&quot;&#10;Output: &quot;apbqrs&quot;" />
+    <MESSAGE value="Who likes it?&#10;https://www.codewars.com/kata/5266876b8f4bf2da9b000362/train/java" />
+    <MESSAGE value="https://leetcode.com/problems/substring-with-concatenation-of-all-words/ solved HARD" />
+    <MESSAGE value="https://leetcode.com/problems/substring-with-concatenation-of-all-words/ solved HARD (work only if s.length % step == 0)" />
+    <option name="LAST_COMMIT_MESSAGE" value="https://leetcode.com/problems/substring-with-concatenation-of-all-words/ solved HARD (work only if s.length % step == 0)" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
